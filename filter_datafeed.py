@@ -13,7 +13,7 @@ def filter_shopee_datafeed():
         preview_df = pd.read_csv(DATAFEED_URL, sep=',', nrows=5, on_bad_lines='skip')
         
         name_col = 'name' if 'name' in preview_df.columns else preview_df.columns[1]
-        price_col = 'discount' if 'discount' in preview_df.columns else ('price' if 'price' in preview_df.columns else preview_df.columns[3])
+        price_col = 'price' if 'price' in preview_df.columns else preview_df.columns[3]
         image_col = 'image' if 'image' in preview_df.columns else preview_df.columns[5]
         link_col = 'url' if 'url' in preview_df.columns else preview_df.columns[2]
 
