@@ -1,0 +1,42 @@
+name: Tự Động Cập Nhật Sản Phẩm Shopee Affiliate
+
+on:
+  schedule:
+    # Cứ đúng 0:00 giờ UTC mỗi ngày (tức là 7:00 sáng giờ Việt Nam), hệ thống sẽ tự động chạy
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Nút này giúp bạn bấm chạy thủ công trên web GitHub bất kỳ lúc nào muốn thử nghiệm
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 1. Lấy toàn bộ code từ repository về máy ảo của GitHub
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    # 2. Cài đặt môi trường Python bản 3.10
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    # 3. Cài đặt thư viện pandas để đọc file CSV dung lượng lớn nhanh
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pandas requests
+
+    # 4. Kích hoạt file code Python để cào lướt dữ liệu và sinh file json
+    - name: Run filter script
+      run: python filter_datafeed.py
+
+    # 5. Tự động Commit file json mới và Push ngược lại lên GitHub Pages của bạn
+    - name: Commit and Push changes
+      run: |
+        git config --global user.name "GitHub Actions Bot"
+        git config --global user.email "actions@github.com"
+        git add shopee_products.json
+        # Chỉ commit nếu file json có sự thay đổi về giá hoặc sản phẩm mới
+        git diff-index --quiet HEAD || git commit -m "Auto-update Shopee products data"
+        git push
