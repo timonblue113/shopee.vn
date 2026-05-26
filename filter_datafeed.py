@@ -5,19 +5,21 @@ import os
 def filter_shopee_datafeed():
     DATAFEED_URL = "http://datafeed.accesstrade.me/shopee.vn.csv"
     
-    # BỘ TỪ KHÓA SIÊU RỘNG ĐỂ QUÉT ĐƯỢC TOÀN BỘ CÁC NGÀNH HÀNG HOT NHẤT
+    # BỘ TỪ KHÓA ĐA DẠNG HƠN ĐỂ ĐẢM BẢO VÉT ĐỦ 30,000 SẢN PHẨM KHÔNG BỊ THIẾU
     KEYWORDS = [
-        "phím", "chuột", "tai nghe", "gaming", "sạc", "cáp", "loa", "điện thoại", "máy tính",
-        "áo", "quần", "váy", "giày", "dép", "balo", "túi", "ví", "thắt lưng",
-        "son", "kem", "serum", "mụn", "nước hoa", "sữa tắm", "dầu gội",
-        "bánh", "kẹo", "khô bò", "mực", "gạch", "ốp", "đèn", "kệ", "tủ"
+        "phím", "chuột", "tai nghe", "gaming", "sạc", "cáp", "loa", "điện thoại", "máy tính", "vỏ",
+        "áo", "quần", "váy", "giày", "dép", "balo", "túi", "ví", "thắt lưng", "mũ", "nón", "kính",
+        "son", "kem", "serum", "mụn", "nước hoa", "sữa tắm", "dầu gội", "phấn", "tẩy trang",
+        "bánh", "kẹo", "khô bò", "mực", "gạch", "ốp", "đèn", "kệ", "tủ", "bàn", "ghế", "gối", "nệm",
+        "bình", "ly", "chén", "đũa", "muỗng", "nồi", "chảo", "thớt", "dao", "kéo", "lau nhà",
+        "tã", "bỉm", "sữa", "đồ chơi", "xe", "vớ", "tất", "khăn", "khẩu trang", "pin", "led"
     ]
     
     print("🚀 Đang kết nối và tải lướt siêu dữ liệu từ Accesstrade...")
     products_list = []
     
     try:
-        # Đọc thử 5 dòng để map tên cột
+        # Đọc thử 5 dòng để map tên cột tự động
         preview_df = pd.read_csv(DATAFEED_URL, sep=',', nrows=5, on_bad_lines='skip')
         
         name_col = 'name' if 'name' in preview_df.columns else preview_df.columns[1]
@@ -27,13 +29,13 @@ def filter_shopee_datafeed():
 
         print(f"🎯 Ánh xạ cột thành công -> Name: {name_col} | Price: {price_col} | Link: {link_col}")
 
-        # Đọc dữ liệu theo cụm lớn hơn (100,000 dòng/cụm) để quét nhanh hơn
+        # Đọc dữ liệu theo cụm lớn (100,000 dòng/cụm) để máy ảo xử lý siêu tốc
         chunk_size = 100000
         for chunk in pd.read_csv(DATAFEED_URL, sep=',', chunksize=chunk_size, on_bad_lines='skip'):
             
             chunk[name_col] = chunk[name_col].astype(str)
             
-            # Quét qua danh sách từ khóa rộng
+            # Quét qua danh sách từ khóa rộng để bốc hàng
             for keyword in KEYWORDS:
                 filtered_chunk = chunk[chunk[name_col].str.contains(keyword, case=False, na=False)]
                 
@@ -45,28 +47,27 @@ def filter_shopee_datafeed():
                         "link": str(row[link_col]).strip()
                     })
                     
-                # Nếu kho đã chứa đủ 20,000 sản phẩm thì chủ động dừng lại để file không bị quá nặng
-                if len(products_list) >= 20000:
+                # KIỂM TRA: Nếu kho đã gom đủ 30,000 sản phẩm thì chủ động ngắt tiến trình
+                if len(products_list) >= 30000:
                     break
-            if len(products_list) >= 20000:
+            if len(products_list) >= 30000:
                 break
                     
-        print(f"✅ Đã gom đủ hàng cho đại siêu thị! Tổng cộng: {len(products_list)} sản phẩm.")
+        print(f"✅ Đã gom đủ hàng cho siêu thị lớn! Tổng cộng: {len(products_list)} sản phẩm.")
         
-        # Cắt chính xác lấy 20,000 sản phẩm đa dạng nhất
-        final_products = products_list[:20000]
+        # Cắt chính xác lấy 30,000 sản phẩm đầu tiên
+        final_products = products_list[:30000]
         
-        # Ghi đè vào file JSON ở thư mục gốc
+        # Ghi đè vào file JSON ở thư mục gốc để Web hốt xài
         current_dir = os.path.dirname(os.path.abspath(__file__))
         output_file = os.path.join(current_dir, "shopee_products.json")
         
         with open(output_file, "w", encoding="utf-8") as f:
             json.dump(final_products, f, ensure_ascii=False, indent=4)
             
-        print(f"🎉 Đã xuất file JSON thành công!")
-        # Đổi dung lượng ra MB cho bạn dễ hình dung
+        print(f"🎉 Đã cập nhật file shopee_products.json thành công!")
         file_size_mb = os.path.getsize(output_file) / (1024 * 1024)
-        print(f"📂 Kích thước file JSON hiện tại: {file_size_mb:.2f} MB.")
+        print(f"📂 Kích thước file JSON hiện tại: {file_size_mb:.2f} MB (Dung lượng lý tưởng cho 30k sản phẩm).")
         
     except Exception as e:
         print(f"❌ Lỗi xử lý: {str(e)}")
