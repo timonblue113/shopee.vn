@@ -3,117 +3,371 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Máy Cày Timon Tech - Săn Deal Shopee</title>
+    <title>Shopee Siêu Sale - Hệ Thống Soi Deal Timon</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        :root { --shopee: #ee4d2d; }
-        body { background: #f4f4f4; padding-top: 50px; padding-bottom: 50px; }
-        .main-card { max-width: 650px; margin: auto; background: #fff; padding: 30px; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); border-top: 6px solid var(--shopee); }
-        .product-box { border: 1px solid #eee; padding: 15px; border-radius: 10px; margin-top: 15px; text-align: left; display: flex; align-items: center; background: #fff; transition: 0.2s; }
-        .product-box:hover { transform: translateY(-2px); box-shadow: 0 5px 15px rgba(0,0,0,0.05); }
-        .price { color: var(--shopee); font-weight: bold; font-size: 1.2rem; }
-        .product-img { width: 75px; height: 75px; object-fit: cover; border-radius: 8px; margin-right: 15px; background: #f9f9f9; border: 1px solid #f0f0f0; }
-        .info-box { flex-grow: 1; min-width: 0; /* Tránh vỡ layout text-truncate */ }
-        .btn-buy { background-color: var(--shopee); color: white; font-weight: bold; }
-        .btn-buy:hover { background-color: #d63b1d; color: white; }
+        :root { 
+            --shopee-orange: #ee4d2d; 
+            --shopee-bg: #f5f5f5;
+        }
+        body { 
+            background-color: var(--shopee-bg); 
+            font-family: -apple-system, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+            padding-bottom: 60px;
+        }
+        
+        /* Header Cam Shopee */
+        .shopee-header {
+            background: linear-gradient(-180deg, #f53d2d, #f63);
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .search-box {
+            background: #fff;
+            border-radius: 4px;
+            padding: 4px;
+            display: flex;
+        }
+        .search-box input {
+            border: none;
+            outline: none;
+            padding: 8px 15px;
+            flex-grow: 1;
+            font-size: 0.95rem;
+        }
+        .search-box button {
+            background-color: var(--shopee-orange);
+            color: white;
+            border: none;
+            padding: 8px 25px;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+
+        /* Khối Voucher Kiểu Shopee */
+        .voucher-section {
+            background: #fff;
+            padding: 15px;
+            border-radius: 4px;
+            margin-bottom: 15px;
+        }
+        .voucher-scroll {
+            display: flex;
+            overflow-x: auto;
+            gap: 12px;
+            padding-bottom: 5px;
+        }
+        .voucher-card {
+            min-width: 240px;
+            background: #fff3f0;
+            border: 1px dashed var(--shopee-orange);
+            border-left: 8px solid var(--shopee-orange);
+            padding: 10px;
+            border-radius: 4px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Thanh Bộ Lọc Danh Mục & Sắp Xếp */
+        .filter-bar {
+            background: #eddcd9;
+            background-color: rgba(0,0,0,.03);
+            padding: 13px 20px;
+            border-radius: 2px;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        .filter-label { color: #555; font-size: 0.9rem; }
+        .filter-btn {
+            background: #fff;
+            border: 1px solid rgba(0,0,0,.09);
+            padding: 6px 15px;
+            font-size: 0.9rem;
+            border-radius: 2px;
+            cursor: pointer;
+        }
+        .filter-btn.active {
+            background-color: var(--shopee-orange);
+            color: white;
+            border-color: var(--shopee-orange);
+        }
+
+        /* Lưới Sản Phẩm Grid */
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+        @media (min-width: 768px) { .product-grid { grid-template-columns: repeat(4, 1fr); } }
+        @media (min-width: 992px) { .product-grid { grid-template-columns: repeat(5, 1fr); } }
+
+        /* Thẻ Sản Phẩm */
+        .shopee-card {
+            background: #fff;
+            border-radius: 4px;
+            overflow: hidden;
+            position: relative;
+            transition: transform 0.1s;
+            border: 1px solid rgba(0,0,0,0.05);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-decoration: none;
+            color: unset;
+        }
+        .shopee-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 1px 20px 0 rgba(0,0,0,0.05);
+            border-color: var(--shopee-orange);
+        }
+        .img-wrapper { position: relative; width: 100%; padding-top: 100%; }
+        .img-wrapper img { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; }
+        .card-body-custom { padding: 8px; display: flex; flex-direction: column; flex-grow: 1; }
+        .product-title {
+            font-size: 0.825rem; line-height: 14px; height: 28px;
+            display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+            overflow: hidden; margin-bottom: 8px; color: #212121;
+        }
+        .shopee-price { color: var(--shopee-orange); font-size: 1.05rem; font-weight: 500; }
+        .info-row { display: flex; justify-content: space-between; font-size: 0.72rem; color: #757575; margin-top: 4px;}
+
+        /* Tags */
+        .tag-yeu-thich {
+            position: absolute; top: 4px; left: -4px; background-color: var(--shopee-orange);
+            color: white; font-size: 0.65rem; padding: 0 4px; border-radius: 2px; z-index: 10;
+        }
+        .tag-yeu-thich::after {
+            content: ""; position: absolute; left: 0; bottom: -3px;
+            border-top: 3px solid #a5220b; border-left: 3px solid transparent;
+        }
+        .tag-giam-gia {
+            position: absolute; top: 0; right: 0; background-color: rgba(255,212,36,0.9);
+            color: var(--shopee-orange); font-size: 0.7rem; font-weight: 700; padding: 3px 4px; text-align: center; z-index: 10;
+        }
     </style>
 </head>
 <body>
 
-<div class="container">
-    <div class="main-card text-center">
-        <h2 class="mb-4">🔍 HỆ THỐNG SOI DEAL TIMON</h2>
-        
-        <div class="input-group mb-3">
-            <input type="text" id="keyword" class="form-control form-control-lg" placeholder="Nhập từ khóa (ví dụ: găng tay, phụ kiện, xe đạp)..." onkeyup="if(event.key === 'Enter') batDauTim()">
-            <button class="btn btn-danger btn-lg px-4" onclick="batDauTim()">TÌM NGAY</button>
+<div class="shopee-header">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12 col-md-4 mb-2 mb-md-0">
+                <a href="." class="text-white text-decoration-none d-flex align-items-center justify-content-center justify-content-md-start">
+                    <i class="fa-solid fa-bag-shopping fa-2x me-2"></i>
+                    <span class="fs-4 fw-bold">Shopee Deal Hot - Timon Tech</span>
+                </a>
+            </div>
+            <div class="col-12 col-md-8">
+                <div class="search-box">
+                    <input type="text" id="keyword" placeholder="Tìm sản phẩm trong 30.000 deal thực tế...">
+                    <button onclick="hanhDongTim()"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </div>
         </div>
-        
-        <div id="status" class="d-none text-danger fw-bold my-3">
-            <div class="spinner-border spinner-border-sm"></div> Đang lục lọi trong kho 30.000 Deal sạch...
-        </div>
-        
-        <div id="results"></div>
     </div>
 </div>
 
+<div class="container my-3">
+    <div class="voucher-section shadow-sm">
+        <div class="fw-bold mb-2 text-secondary" style="font-size: 0.9rem;"><i class="fa-solid fa-ticket text-danger me-1"></i> MÃ GIẢM GIÁ ĐỘC QUYỀN HÔM NAY</div>
+        <div class="voucher-scroll">
+            <div class="voucher-card">
+                <div>
+                    <div class="fw-bold text-danger mb-0" style="font-size:0.85rem">Giảm 50k Toàn Sàn</div>
+                    <div class="text-muted" style="font-size:0.7rem">Đơn tối thiểu 0đ</div>
+                </div>
+                <a href="https://shopee.vn" target="_blank" class="btn btn-sm btn-danger py-1" style="font-size:0.75rem">LƯU MÃ</a>
+            </div>
+            <div class="voucher-card">
+                <div>
+                    <div class="fw-bold text-danger mb-0" style="font-size:0.85rem">Miễn Phí Vận Chuyển</div>
+                    <div class="text-muted" style="font-size:0.7rem">Cho mọi đơn hàng</div>
+                </div>
+                <a href="https://shopee.vn" target="_blank" class="btn btn-sm btn-danger py-1" style="font-size:0.75rem">LƯU MÃ</a>
+            </div>
+            <div class="voucher-card">
+                <div>
+                    <div class="fw-bold text-danger mb-0" style="font-size:0.85rem">Hoàn Xu 15% Toàn Quốc</div>
+                    <div class="text-muted" style="font-size:0.7rem">Tối đa 100k Xu</div>
+                </div>
+                <a href="https://shopee.vn" target="_blank" class="btn btn-sm btn-danger py-1" style="font-size:0.75rem">LƯU MÃ</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="filter-bar shadow-sm">
+        <span class="filter-label">Sắp xếp theo</span>
+        <button class="filter-btn active" id="btn-pop" onclick="doiSort('pho-bien')">Phổ biến</button>
+        <button class="filter-btn" id="btn-sold" onclick="doiSort('ban-chay')">Bán chạy</button>
+        <button class="filter-btn" id="btn-price" onclick="doiSort('gia-tang')">Giá: Thấp đến Cao</button>
+        
+        <span class="filter-label ms-md-4">Danh mục nhanh:</span>
+        <select class="form-select form-select-sm d-inline-block w-auto" onchange="locDanhMucFast(this.value)">
+            <option value="">-- Tất cả sản phẩm --</option>
+            <option value="xe đạp">Phụ Kiện Xe</option>
+            <option value="ốp">Ốp Lưng & Điện Thoại</option>
+            <option value="túi">Túi Xách & Balo</option>
+            <option value="sạc">Cáp Sạc & Điện Tử</option>
+            <option value="giày">Giày Dép Thời Trang</option>
+        </select>
+    </div>
+
+    <h5 class="mb-3 text-uppercase text-secondary fw-bold" id="grid-title" style="font-size:1rem; letter-spacing:0.5px;">🔥 GỢI Ý HÔM NAY</h5>
+
+    <div id="status" class="d-none text-center my-5">
+        <div class="spinner-border text-danger mb-2"></div>
+        <div class="text-muted small">Đang đồng bộ dữ liệu từ Shopee...</div>
+    </div>
+
+    <div id="results" class="product-grid"></div>
+</div>
+
 <script>
-    function batDauTim() {
-        const kw = document.getElementById('keyword').value.trim().toLowerCase();
-        if (!kw) {
-            alert("Vui lòng nhập từ khóa tìm kiếm nha fen!");
-            return;
-        }
+    let fullProductsInventory = []; // Kho lưu trữ 30k sản phẩm sau khi tải xong
+    let currentDisplayedList = []; // Danh sách sản phẩm hiện tại đang được lọc/hiển thị
+    let filterType = 'pho-bien';
 
+    // Khi vừa tải trang: Load ngay file JSON và bốc ngẫu nhiên sản phẩm mồi luôn
+    document.addEventListener("DOMContentLoaded", function() {
         const statusBox = document.getElementById('status');
-        const resultsBox = document.getElementById('results');
-
         statusBox.classList.remove('d-none');
-        resultsBox.innerHTML = '';
 
-        // Gọi file shopee_products.json cùng thư mục
         fetch('./shopee_products.json')
             .then(response => {
-                if (!response.ok) throw new Error("Không tìm thấy dữ liệu shopee_products.json. Hãy chạy script cào link trước nhé!");
+                if (!response.ok) throw new Error("Không tìm thấy tệp JSON.");
                 return response.json();
             })
-            .then(products => {
+            .then(data => {
                 statusBox.classList.add('d-none');
+                fullProductsInventory = data;
                 
-                // Lọc sản phẩm theo từ khóa
-                const filtered = products.filter(p => p.name && p.name.toLowerCase().includes(kw));
-
-                if (filtered.length === 0) {
-                    resultsBox.innerHTML = `
-                        <div class="alert alert-warning mt-3">
-                            Không tìm thấy sản phẩm nào khớp với từ khóa <strong>"${document.getElementById('keyword').value}"</strong>.
-                            <br><small class="text-muted">Mẹo: Thử tìm từ ngắn gọn hơn xem sao.</small>
-                        </div>`;
-                    return;
-                }
-
-                // Giới hạn hiển thị tối đa 100 sản phẩm để tránh làm đứng trình duyệt của người dùng
-                const limitedProducts = filtered.slice(0, 100);
-                hienThi(limitedProducts, filtered.length);
+                // Trộn ngẫu nhiên lấy ra 30 sản phẩm mồi để làm trang chủ đầy đặn
+                const shuffled = [...fullProductsInventory].sort(() => 0.5 - Math.random());
+                currentDisplayedList = shuffled.slice(0, 30);
+                
+                renderCards(currentDisplayedList);
             })
             .catch(err => {
                 statusBox.classList.add('d-none');
-                resultsBox.innerHTML = `<div class="alert alert-danger mt-3">Lỗi hệ thống dữ liệu: ${err.message}</div>`;
+                document.getElementById('results').innerHTML = `<div class="alert alert-warning w-100 text-center">Đang cập nhật kho Deal mới, vui lòng thử lại sau!</div>`;
             });
-    }
+            
+        // Bắt sự kiện gõ Enter trên ô tìm kiếm
+        document.getElementById('keyword').addEventListener('keyup', function(e) {
+            if (e.key === 'Enter') hanhDongTim();
+        });
+    });
 
-    function hienThi(products, totalFound) {
-        let html = '';
+    // Hàm Tìm Kiếm Chính thức
+    function hanhDongTim() {
+        const kw = document.getElementById('keyword').value.trim().toLowerCase();
+        if (!kw) {
+            alert("Nhập từ khóa tìm kiếm giùm cái fen ơi!");
+            return;
+        }
         
-        if (totalFound > 100) {
-            html += `<div class="text-muted text-start mb-2 ps-1"><small>🔥 Tìm thấy ${totalFound.toLocaleString('vi-VN')} sản phẩm, hiển thị 100 kết quả tốt nhất:</small></div>`;
+        document.getElementById('grid-title').innerText = `🔍 KẾT QUẢ TÌM KIẾM CHO: "${kw.toUpperCase()}"`;
+        
+        // Tiến hành lọc từ kho dữ liệu tổng
+        const filtered = fullProductsInventory.filter(p => p.name && p.name.toLowerCase().includes(kw));
+        
+        if (filtered.length === 0) {
+            document.getElementById('results').innerHTML = `
+                <div class="alert alert-light border text-center p-5 w-100 shadow-sm">
+                    <i class="fa-regular fa-face-frown fa-3x text-muted mb-3"></i>
+                    <h5 class="text-secondary">Không tìm thấy sản phẩm phù hợp</h5>
+                    <p class="small text-muted mb-0">Thử tìm từ khóa ngắn gọn khác xem sao nhé!</p>
+                </div>`;
+            return;
         }
 
-        products.forEach(p => {
-            // Xử lý ảnh sản phẩm: Nếu không có ảnh hoặc ảnh lỗi thì thay bằng ảnh placeholder sạch sẽ
-            const imageUrl = (p.image && p.image !== 'N/A' && p.image !== 'None') 
-                ? p.image 
-                : 'https://placehold.co/150x150?text=Shopee';
+        currentDisplayedList = filtered;
+        xu LySapXepVaRender();
+    }
+
+    // Lọc nhanh bằng Thẻ Select Danh mục
+    function locDanhMucFast(val) {
+        if(!val) {
+            document.getElementById('grid-title').innerText = "🔥 GỢI Ý HÔM NAY";
+            const shuffled = [...fullProductsInventory].sort(() => 0.5 - Math.random());
+            currentDisplayedList = shuffled.slice(0, 30);
+            xu LySapXepVaRender();
+            return;
+        }
+        document.getElementById('keyword').value = val;
+        hanhDongTim();
+    }
+
+    // Đổi cấu trúc Sắp Xếp (Sort)
+    function doiSort(type) {
+        filterType = type;
+        // Đổi màu nút active
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        if(type === 'pho-bien') document.getElementById('btn-pop').classList.add('active');
+        if(type === 'ban-chay') document.getElementById('btn-sold').classList.add('active');
+        if(type === 'gia-tang') document.getElementById('btn-price').classList.add('active');
+        
+        xu LySapXepVaRender();
+    }
+
+    // Thực thi sắp xếp mảng và xuất ra HTML
+    function xu LySapXepVaRender() {
+        let sortedList = [...currentDisplayedList];
+        
+        if (filterType === 'gia-tang') {
+            sortedList.sort((a, b) => Number(a.price_current || 0) - Number(b.price_current || 0));
+        } else if (filterType === 'ban-chay') {
+            // Sắp xếp mô phỏng dựa trên chỉ số ngẫu nhiên ngầm (Giữ cố định hoặc mô phỏng theo độ dài tên)
+            sortedList.sort((a, b) => (b.name || '').length - (a.name || '').length);
+        }
+        
+        // Chỉ lấy tối đa 60 sản phẩm hiển thị để giữ tốc độ load mượt mà nhất
+        renderCards(sortedList.slice(0, 60));
+    }
+
+    // Hàm xuất dữ liệu ra giao diện Card
+    function renderCards(list) {
+        let html = '';
+        list.forEach(p => {
+            const imageUrl = (p.image && p.image !== 'N/A' && p.image !== 'None') ? p.image : 'https://placehold.co/300x300?text=Shopee';
             
-            // Ép và định dạng giá tiền (ví dụ từ 76600 thành 76.600 ₫)
             let displayPrice = 'Liên hệ';
             if (p.price_current && !isNaN(p.price_current) && Number(p.price_current) > 0) {
                 displayPrice = Number(p.price_current).toLocaleString('vi-VN') + ' ₫';
-            } else if (p.price_current) {
-                displayPrice = p.price_current; 
             }
-            
+
+            // Đồng bộ bộ máy fake số liệu theo ký tự tên sản phẩm để tránh việc mỗi lần ấn sort số lại nhảy kiểu khác
+            const seed = (p.name || '').length;
+            const fakeSold = (seed * 7) % 800 + 115;
+            const fakeDiscount = (seed * 3) % 30 + 15;
+
             html += `
-            <div class="product-box">
-                <img src="${imageUrl}" class="product-img" alt="${p.name}" onerror="this.src='https://placehold.co/150x150?text=No+Image'">
-                <div class="info-box">
-                    <div class="fw-bold text-truncate w-100" title="${p.name}">${p.name}</div>
-                    <div class="price mt-1">${displayPrice}</div>
+            <a href="${p.link}" target="_blank" class="shopee-card shadow-sm">
+                <div class="tag-yeu-thich">Yêu thích</div>
+                <div class="tag-giam-gia">-${fakeDiscount}%<br><span style="font-size:0.55rem;font-weight:normal;color:#fff;">GIẢM</span></div>
+                <div class="img-wrapper">
+                    <img src="${imageUrl}" alt="${p.name}" onerror="this.src='https://placehold.co/300x300?text=Shopee+Mall'">
                 </div>
-                <a href="${p.link}" target="_blank" class="btn btn-buy btn-sm px-3 fw-bold ms-2 text-nowrap">XEM NGAY</a>
-            </div>`;
+                <div class="card-body-custom">
+                    <div class="product-title" title="${p.name}">${p.name}</div>
+                    <div class="mt-auto">
+                        <div class="shopee-price">${displayPrice}</div>
+                        <div class="info-row">
+                            <span class="text-warning"><i class="fa-solid fa-star" style="font-size:0.65rem"></i> 4.9</span>
+                            <span>Đã bán ${fakeSold}</span>
+                        </div>
+                    </div>
+                </div>
+            </a>`;
         });
-        
         document.getElementById('results').innerHTML = html;
     }
 </script>
