@@ -1,40 +1,45 @@
-name: Tự Động Cập Nhật Sản Phẩm Shopee Affiliate
+name: Tự động cập nhật Deal và Voucher Shopee mỗi sáng
 
 on:
   schedule:
-    - cron: '0 0 * * *'
-  workflow_dispatch:
+    # 23:00 giờ quốc tế UTC tương đương với 06:00 giờ sáng Việt Nam (UTC +7)
+    - cron: '0 23 * * *'
+  workflow_dispatch: # Cho phép bấm nút kích hoạt chạy thủ công trên GitHub bất kỳ lúc nào
 
 jobs:
-  update-data:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-    # 1. Nâng cấp từ @v3 lên @v4 để chạy Node.js mới nhất
-    - name: Checkout code
-      uses: actions/checkout@v4
+    # Bước 1: Kéo toàn bộ code từ kho GitHub về máy ảo
+    - name: Checkout repository
+      uses: actions/checkout@v3
 
-    # 2. Nâng cấp từ @v4 lên @v5 để tương thích Node.js mới nhất
-    - name: Set up Python
-      uses: actions/setup-python@v5
+    # Bước 2: Khởi tạo môi trường Python
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v4
       with:
         python-version: '3.10'
 
-    # 3. Cài đặt thư viện pandas và requests
+    # Bước 3: Cài đặt thư viện requests để kết nối API AccessTrade
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install pandas requests
+        pip install requests
 
-    # 4. Kích hoạt file code Python để cào lướt dữ liệu
-    - name: Run filter script
+    # Bước 4: Chạy file Python tạo link 30.000 sản phẩm (Đã khớp chuẩn tên file của fen)
+    - name: Chạy script cào Sản Phẩm Shopee
       run: python filter_datafeed.py
 
-    # 5. Tự động Commit file json mới và Push ngược lại lên GitHub Pages
-    - name: Commit and Push changes
+    # Bước 5: Chạy file Python hốt Voucher giảm giá (Đã khớp chuẩn tên file sau khi đổi)
+    - name: Chạy script cào Voucher Shopee
+      run: python get_vouchers.py
+
+    # Bước 6: Tự động thu gom dữ liệu mới, lưu lại và đẩy lên GitHub Pages
+    - name: Commit và Push dữ liệu mới lên GitHub Pages
       run: |
-        git config --global user.name "GitHub Actions Bot"
-        git config --global user.email "actions@github.com"
-        git add shopee_products.json
-        git diff-index --quiet HEAD || git commit -m "Auto-update Shopee products data"
-        git push
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add shopee_products.json shopee_vouchers.json
+        # Kiểm tra nếu có dữ liệu mới thay đổi thì tiến hành lưu và đẩy lên
+        git diff --quiet && git diff --staged --quiet || (git commit -m "🔥 Tự động cập nhật Deal & Voucher sáng hôm nay" && git push)
