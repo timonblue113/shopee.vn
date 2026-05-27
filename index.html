@@ -3,16 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Máy Cày Timon Tech</title>
+    <title>Máy Cày Timon Tech - Săn Deal Shopee</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         :root { --shopee: #ee4d2d; }
-        body { background: #f4f4f4; padding-top: 50px; }
+        body { background: #f4f4f4; padding-top: 50px; padding-bottom: 50px; }
         .main-card { max-width: 650px; margin: auto; background: #fff; padding: 30px; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); border-top: 6px solid var(--shopee); }
         .product-box { border: 1px solid #eee; padding: 15px; border-radius: 10px; margin-top: 15px; text-align: left; display: flex; align-items: center; background: #fff; transition: 0.2s; }
         .product-box:hover { transform: translateY(-2px); box-shadow: 0 5px 15px rgba(0,0,0,0.05); }
         .price { color: var(--shopee); font-weight: bold; font-size: 1.2rem; }
-        .product-img { width: 75px; height: 75px; object-fit: cover; border-radius: 8px; margin-right: 15px; background: #f9f9f9; }
+        .product-img { width: 75px; height: 75px; object-fit: cover; border-radius: 8px; margin-right: 15px; background: #f9f9f9; border: 1px solid #f0f0f0; }
+        .info-box { flex-grow: 1; min-width: 0; /* Tránh vỡ layout text-truncate */ }
+        .btn-buy { background-color: var(--shopee); color: white; font-weight: bold; }
+        .btn-buy:hover { background-color: #d63b1d; color: white; }
     </style>
 </head>
 <body>
@@ -20,13 +23,16 @@
 <div class="container">
     <div class="main-card text-center">
         <h2 class="mb-4">🔍 HỆ THỐNG SOI DEAL TIMON</h2>
+        
         <div class="input-group mb-3">
-            <input type="text" id="keyword" class="form-control form-control-lg" placeholder="Nhập từ khóa (ví dụ: bàn phím, chuột)...">
+            <input type="text" id="keyword" class="form-control form-control-lg" placeholder="Nhập từ khóa (ví dụ: găng tay, phụ kiện, xe đạp)..." onkeyup="if(event.key === 'Enter') batDauTim()">
             <button class="btn btn-danger btn-lg px-4" onclick="batDauTim()">TÌM NGAY</button>
         </div>
+        
         <div id="status" class="d-none text-danger fw-bold my-3">
-            <div class="spinner-border spinner-border-sm"></div> Đang lục lọi trong kho Deal sạch...
+            <div class="spinner-border spinner-border-sm"></div> Đang lục lọi trong kho 30.000 Deal sạch...
         </div>
+        
         <div id="results"></div>
     </div>
 </div>
@@ -35,7 +41,7 @@
     function batDauTim() {
         const kw = document.getElementById('keyword').value.trim().toLowerCase();
         if (!kw) {
-            alert("Vui lòng nhập từ khóa tìm kiếm ba ơi!");
+            alert("Vui lòng nhập từ khóa tìm kiếm nha fen!");
             return;
         }
 
@@ -45,28 +51,30 @@
         statusBox.classList.remove('d-none');
         resultsBox.innerHTML = '';
 
-        // Đọc trực tiếp file dữ liệu shopee_products.json nằm cùng thư mục gốc trên GitHub Pages
+        // Gọi file shopee_products.json cùng thư mục
         fetch('./shopee_products.json')
             .then(response => {
-                if (!response.ok) throw new Error("Không tìm thấy file shopee_products.json. Hãy chắc chắn GitHub Actions đã chạy thành công ít nhất 1 lần!");
+                if (!response.ok) throw new Error("Không tìm thấy dữ liệu shopee_products.json. Hãy chạy script cào link trước nhé!");
                 return response.json();
             })
             .then(products => {
                 statusBox.classList.add('d-none');
                 
-                // Thuật toán lọc thông minh: tìm các sản phẩm chứa từ khóa người dùng nhập
-                const filtered = products.filter(p => p.name.toLowerCase().includes(kw));
+                // Lọc sản phẩm theo từ khóa
+                const filtered = products.filter(p => p.name && p.name.toLowerCase().includes(kw));
 
                 if (filtered.length === 0) {
                     resultsBox.innerHTML = `
                         <div class="alert alert-warning mt-3">
-                            Không tìm thấy sản phẩm nào khớp với từ khóa <strong>"${document.getElementById('keyword').value}"</strong> trong kho Deal hiện tại.
-                            <br><small class="text-muted">Mẹo: Thử tìm từ ngắn hơn như: bàn phím, chuột, tai nghe...</small>
+                            Không tìm thấy sản phẩm nào khớp với từ khóa <strong>"${document.getElementById('keyword').value}"</strong>.
+                            <br><small class="text-muted">Mẹo: Thử tìm từ ngắn gọn hơn xem sao.</small>
                         </div>`;
                     return;
                 }
 
-                hienThi(filtered);
+                // Giới hạn hiển thị tối đa 100 sản phẩm để tránh làm đứng trình duyệt của người dùng
+                const limitedProducts = filtered.slice(0, 100);
+                hienThi(limitedProducts, filtered.length);
             })
             .catch(err => {
                 statusBox.classList.add('d-none');
@@ -74,30 +82,38 @@
             });
     }
 
-    function hienThi(products) {
+    function hienThi(products, totalFound) {
         let html = '';
+        
+        if (totalFound > 100) {
+            html += `<div class="text-muted text-start mb-2 ps-1"><small>🔥 Tìm thấy ${totalFound.toLocaleString('vi-VN')} sản phẩm, hiển thị 100 kết quả tốt nhất:</small></div>`;
+        }
+
         products.forEach(p => {
-            // Hiển thị ảnh sản phẩm nếu có, nếu rỗng hoặc lỗi thì dùng ảnh mặc định ẩn đi hoặc để trống
-            const imgHtml = (p.image && p.image !== 'N/A' && p.image !== 'None') 
-                ? `<img src="${p.image}" class="product-img" alt="product" onerror="this.style.display='none'">` 
-                : '';
+            // Xử lý ảnh sản phẩm: Nếu không có ảnh hoặc ảnh lỗi thì thay bằng ảnh placeholder sạch sẽ
+            const imageUrl = (p.image && p.image !== 'N/A' && p.image !== 'None') 
+                ? p.image 
+                : 'https://placehold.co/150x150?text=Shopee';
             
-            // Format định dạng hiển thị giá tiền Việt Nam cho đẹp mắt
-            let displayPrice = p.price_current;
-            if (!isNaN(p.price_current)) {
+            // Ép và định dạng giá tiền (ví dụ từ 76600 thành 76.600 ₫)
+            let displayPrice = 'Liên hệ';
+            if (p.price_current && !isNaN(p.price_current) && Number(p.price_current) > 0) {
                 displayPrice = Number(p.price_current).toLocaleString('vi-VN') + ' ₫';
+            } else if (p.price_current) {
+                displayPrice = p.price_current; 
             }
             
             html += `
             <div class="product-box">
-                ${imgHtml}
-                <div class="flex-grow-1">
-                    <div class="fw-bold text-truncate" style="max-width: 350px;" title="${p.name}">${p.name}</div>
-                    <div class="price">${displayPrice}</div>
+                <img src="${imageUrl}" class="product-img" alt="${p.name}" onerror="this.src='https://placehold.co/150x150?text=No+Image'">
+                <div class="info-box">
+                    <div class="fw-bold text-truncate w-100" title="${p.name}">${p.name}</div>
+                    <div class="price mt-1">${displayPrice}</div>
                 </div>
-                <a href="${p.link}" target="_blank" class="btn btn-danger btn-sm px-3 fw-bold">XEM NGAY</a>
+                <a href="${p.link}" target="_blank" class="btn btn-buy btn-sm px-3 fw-bold ms-2 text-nowrap">XEM NGAY</a>
             </div>`;
         });
+        
         document.getElementById('results').innerHTML = html;
     }
 </script>
