@@ -62,7 +62,8 @@
             padding-bottom: 5px;
         }
         .voucher-card {
-            min-width: 240px;
+            min-width: 260px;
+            max-width: 300px;
             background: #fff3f0;
             border: 1px dashed var(--shopee-orange);
             border-left: 8px solid var(--shopee-orange);
@@ -75,7 +76,6 @@
 
         /* Thanh Bộ Lọc Danh Mục & Sắp Xếp */
         .filter-bar {
-            background: #eddcd9;
             background-color: rgba(0,0,0,.03);
             padding: 13px 20px;
             border-radius: 2px;
@@ -179,27 +179,7 @@
     <div class="voucher-section shadow-sm">
         <div class="fw-bold mb-2 text-secondary" style="font-size: 0.9rem;"><i class="fa-solid fa-ticket text-danger me-1"></i> MÃ GIẢM GIÁ ĐỘC QUYỀN HÔM NAY</div>
         <div class="voucher-scroll">
-            <div class="voucher-card">
-                <div>
-                    <div class="fw-bold text-danger mb-0" style="font-size:0.85rem">Giảm 50k Toàn Sàn</div>
-                    <div class="text-muted" style="font-size:0.7rem">Đơn tối thiểu 0đ</div>
-                </div>
-                <a href="https://shopee.vn" target="_blank" class="btn btn-sm btn-danger py-1" style="font-size:0.75rem">LƯU MÃ</a>
-            </div>
-            <div class="voucher-card">
-                <div>
-                    <div class="fw-bold text-danger mb-0" style="font-size:0.85rem">Miễn Phí Vận Chuyển</div>
-                    <div class="text-muted" style="font-size:0.7rem">Cho mọi đơn hàng</div>
-                </div>
-                <a href="https://shopee.vn" target="_blank" class="btn btn-sm btn-danger py-1" style="font-size:0.75rem">LƯU MÃ</a>
-            </div>
-            <div class="voucher-card">
-                <div>
-                    <div class="fw-bold text-danger mb-0" style="font-size:0.85rem">Hoàn Xu 15% Toàn Quốc</div>
-                    <div class="text-muted" style="font-size:0.7rem">Tối đa 100k Xu</div>
-                </div>
-                <a href="https://shopee.vn" target="_blank" class="btn btn-sm btn-danger py-1" style="font-size:0.75rem">LƯU MÃ</a>
-            </div>
+            <div class="text-muted small ps-2 py-2"><i class="fas fa-spinner fa-spin"></i> Đang cập nhật mã giảm giá mới nhất...</div>
         </div>
     </div>
 
@@ -212,7 +192,7 @@
         <span class="filter-label ms-md-4">Danh mục nhanh:</span>
         <select class="form-select form-select-sm d-inline-block w-auto" onchange="locDanhMucFast(this.value)">
             <option value="">-- Tất cả sản phẩm --</option>
-            <option value="xe đạp">Phụ Kiện Xe</option>
+            <option value="xe">Phụ Kiện Xe</option>
             <option value="ốp">Ốp Lưng & Điện Thoại</option>
             <option value="túi">Túi Xách & Balo</option>
             <option value="sạc">Cáp Sạc & Điện Tử</option>
@@ -222,7 +202,7 @@
 
     <h5 class="mb-3 text-uppercase text-secondary fw-bold" id="grid-title" style="font-size:1rem; letter-spacing:0.5px;">🔥 GỢI Ý HÔM NAY</h5>
 
-    <div id="status" class="d-none text-center my-5">
+    <div id="status" class="text-center my-5">
         <div class="spinner-border text-danger mb-2"></div>
         <div class="text-muted small">Đang đồng bộ dữ liệu từ Shopee...</div>
     </div>
@@ -231,15 +211,46 @@
 </div>
 
 <script>
-    let fullProductsInventory = []; // Kho lưu trữ 30k sản phẩm sau khi tải xong
-    let currentDisplayedList = []; // Danh sách sản phẩm hiện tại đang được lọc/hiển thị
+    let fullProductsInventory = []; 
+    let currentDisplayedList = []; 
     let filterType = 'pho-bien';
 
-    // Khi vừa tải trang: Load ngay file JSON và bốc ngẫu nhiên sản phẩm mồi luôn
+    // Đọc file dữ liệu ngay khi mở trang
     document.addEventListener("DOMContentLoaded", function() {
         const statusBox = document.getElementById('status');
-        statusBox.classList.remove('d-none');
 
+        // 1. LOAD VOUCHER THỰC TẾ TỪ FILE JSON CÀO ĐƯỢC (Đã sửa comment thành chuẩn JS)
+        fetch('./shopee_vouchers.json')
+            .then(response => {
+                if (!response.ok) throw new Error("Chưa có file voucher.");
+                return response.json();
+            })
+            .then(vouchers => {
+                let vHtml = '';
+                if(!vouchers || vouchers.length === 0) {
+                    document.querySelector('.voucher-section').style.display = 'none';
+                    return;
+                }
+                
+                vouchers.forEach(v => {
+                    vHtml += `
+                    <div class="voucher-card shadow-sm">
+                        <div style="flex-grow: 1; min-width: 0; padding-right: 8px;">
+                            <div class="fw-bold text-danger text-truncate mb-0" style="font-size:0.85rem" title="${v.title}">${v.title}</div>
+                            <div class="text-muted text-truncate" style="font-size:0.68rem; line-height: 1.2;" title="${v.desc}">${v.desc}</div>
+                            <div class="badge bg-secondary mt-1" style="font-size:0.6rem; letter-spacing:0.5px;">Mã: ${v.code}</div>
+                        </div>
+                        <a href="${v.link}" target="_blank" class="btn btn-sm btn-danger py-1 fw-bold text-nowrap" style="font-size:0.75rem">LƯU MÃ</a>
+                    </div>`;
+                });
+                document.querySelector('.voucher-scroll').innerHTML = vHtml;
+            })
+            .catch(err => {
+                console.log("Không nạp được file voucher trực tuyến:", err.message);
+                document.querySelector('.voucher-section').style.display = 'none';
+            });
+
+        // 2. LOAD SẢN PHẨM GỢI Ý NHƯ CŨ (Đã sửa comment thành chuẩn JS)
         fetch('./shopee_products.json')
             .then(response => {
                 if (!response.ok) throw new Error("Không tìm thấy tệp JSON.");
@@ -249,7 +260,7 @@
                 statusBox.classList.add('d-none');
                 fullProductsInventory = data;
                 
-                // Trộn ngẫu nhiên lấy ra 30 sản phẩm mồi để làm trang chủ đầy đặn
+                // Trộn và bốc ngay 30 sản phẩm làm gợi ý ban đầu
                 const shuffled = [...fullProductsInventory].sort(() => 0.5 - Math.random());
                 currentDisplayedList = shuffled.slice(0, 30);
                 
@@ -257,18 +268,21 @@
             })
             .catch(err => {
                 statusBox.classList.add('d-none');
-                document.getElementById('results').innerHTML = `<div class="alert alert-warning w-100 text-center">Đang cập nhật kho Deal mới, vui lòng thử lại sau!</div>`;
+                document.getElementById('results').innerHTML = `<div class="alert alert-warning w-100 text-center">Đang nạp dữ liệu Deal, fen hãy kiểm tra lại file shopee_products.json nhé!</div>`;
+                console.error(err);
             });
             
-        // Bắt sự kiện gõ Enter trên ô tìm kiếm
+        // Bắt sự kiện Enter khi gõ
         document.getElementById('keyword').addEventListener('keyup', function(e) {
             if (e.key === 'Enter') hanhDongTim();
         });
     });
 
-    // Hàm Tìm Kiếm Chính thức
+    // Hàm tìm kiếm
     function hanhDongTim() {
         const kw = document.getElementById('keyword').value.trim().toLowerCase();
+        const resultsBox = document.getElementById('results');
+
         if (!kw) {
             alert("Nhập từ khóa tìm kiếm giùm cái fen ơi!");
             return;
@@ -276,11 +290,11 @@
         
         document.getElementById('grid-title').innerText = `🔍 KẾT QUẢ TÌM KIẾM CHO: "${kw.toUpperCase()}"`;
         
-        // Tiến hành lọc từ kho dữ liệu tổng
         const filtered = fullProductsInventory.filter(p => p.name && p.name.toLowerCase().includes(kw));
         
         if (filtered.length === 0) {
-            document.getElementById('results').innerHTML = `
+            resultsBox.style.display = 'block';
+            resultsBox.innerHTML = `
                 <div class="alert alert-light border text-center p-5 w-100 shadow-sm">
                     <i class="fa-regular fa-face-frown fa-3x text-muted mb-3"></i>
                     <h5 class="text-secondary">Không tìm thấy sản phẩm phù hợp</h5>
@@ -289,51 +303,51 @@
             return;
         }
 
+        resultsBox.style.display = 'grid';
         currentDisplayedList = filtered;
-        xu LySapXepVaRender();
+        xuLySapXepVaRender();
     }
 
-    // Lọc nhanh bằng Thẻ Select Danh mục
+    // Lọc nhanh bằng Thẻ Select
     function locDanhMucFast(val) {
         if(!val) {
             document.getElementById('grid-title').innerText = "🔥 GỢI Ý HÔM NAY";
+            document.getElementById('keyword').value = "";
             const shuffled = [...fullProductsInventory].sort(() => 0.5 - Math.random());
             currentDisplayedList = shuffled.slice(0, 30);
-            xu LySapXepVaRender();
+            document.getElementById('results').style.display = 'grid';
+            renderCards(currentDisplayedList);
             return;
         }
         document.getElementById('keyword').value = val;
         hanhDongTim();
     }
 
-    // Đổi cấu trúc Sắp Xếp (Sort)
+    // Đổi cấu trúc Sắp Xếp
     function doiSort(type) {
         filterType = type;
-        // Đổi màu nút active
         document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
         if(type === 'pho-bien') document.getElementById('btn-pop').classList.add('active');
         if(type === 'ban-chay') document.getElementById('btn-sold').classList.add('active');
         if(type === 'gia-tang') document.getElementById('btn-price').classList.add('active');
         
-        xu LySapXepVaRender();
+        xuLySapXepVaRender();
     }
 
-    // Thực thi sắp xếp mảng và xuất ra HTML
-    function xu LySapXepVaRender() {
+    // Thực thi sắp xếp mảng
+    function xuLySapXepVaRender() {
         let sortedList = [...currentDisplayedList];
         
         if (filterType === 'gia-tang') {
             sortedList.sort((a, b) => Number(a.price_current || 0) - Number(b.price_current || 0));
         } else if (filterType === 'ban-chay') {
-            // Sắp xếp mô phỏng dựa trên chỉ số ngẫu nhiên ngầm (Giữ cố định hoặc mô phỏng theo độ dài tên)
             sortedList.sort((a, b) => (b.name || '').length - (a.name || '').length);
         }
         
-        // Chỉ lấy tối đa 60 sản phẩm hiển thị để giữ tốc độ load mượt mà nhất
         renderCards(sortedList.slice(0, 60));
     }
 
-    // Hàm xuất dữ liệu ra giao diện Card
+    // Xuất dữ liệu HTML Card
     function renderCards(list) {
         let html = '';
         list.forEach(p => {
@@ -344,7 +358,6 @@
                 displayPrice = Number(p.price_current).toLocaleString('vi-VN') + ' ₫';
             }
 
-            // Đồng bộ bộ máy fake số liệu theo ký tự tên sản phẩm để tránh việc mỗi lần ấn sort số lại nhảy kiểu khác
             const seed = (p.name || '').length;
             const fakeSold = (seed * 7) % 800 + 115;
             const fakeDiscount = (seed * 3) % 30 + 15;
