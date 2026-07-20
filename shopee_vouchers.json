@@ -1,5 +1,497 @@
 [
     {
+        "title": "[Rechic]-Giảm 30,000 VNĐ cho đơn tối thiểu 699,000 VNĐ",
+        "code": "RECH20J30",
+        "desc": "[Rechic] [Rechic]-Giảm 30,000 VNĐ cho đơn tối thiểu 699,000 ...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467973002760192%26signature%3D8e6a13533851e8cc2c7452bf085cf77b20565fe7761fbb32735316f2c194c458%26voucherCode%3DRECH20J30%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[EYESHARE CONTACT LENSES]-Giảm 5,000 VNĐ cho đơn tối thiểu 52,900 VNĐ",
+        "code": "EYESQHCQR",
+        "desc": "[EYESHARE CONTACT LENSES] [EYESHARE CONTACT LENSES]-Giảm 5,0...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1468160143298560%26signature%3D179eec51e4f771fd378113ea0ea1c71738a5804cd99ef2996f6acdd85340f18f%26voucherCode%3DEYESQHCQR%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[ZEE Store Vietnam]-Giảm 300,000 VNĐ cho đơn tối thiểu 690,000 VNĐ",
+        "code": "ZEESCBKEM",
+        "desc": "[ZEE Store Vietnam] [ZEE Store Vietnam]-Giảm 300,000 VNĐ cho...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467802050662400%26signature%3D35b4fc6c206b76bdec8be6b517199e0d7f6f4436edcefdac43c73f4a9d452ce2%26voucherCode%3DZEESCBKEM%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[P3H Store]-Giảm 5%-tối đa 0 VNĐ cho đơn tối thiểu 0 VNĐ",
+        "code": "P3HS25MEG",
+        "desc": "[P3H Store] [P3H Store]-Giảm 5%-tối đa 0 VNĐ cho đơn tối thi...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1454082237829120%26signature%3D27ed955350e028513836e6b731e685100eb06c01f686a4e6549646172bc3eb42%26voucherCode%3DP3HS25MEG%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[Musion.vn]-Giảm 9,900 VNĐ cho đơn tối thiểu 229,000 VNĐ",
+        "code": "MUSIMIWHG",
+        "desc": "[Musion.vn] [Musion.vn]-Giảm 9,900 VNĐ cho đơn tối thiểu 229...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1468133627170816%26signature%3Dad7b342c4c5adb1dd8f5d3eb609cbaad7c45575da514ff78193a27f767eadaae%26voucherCode%3DMUSIMIWHG%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[Musion.vn]-Giảm 6,000 VNĐ cho đơn tối thiểu 199,000 VNĐ",
+        "code": "MUSIJLDMC",
+        "desc": "[Musion.vn] [Musion.vn]-Giảm 6,000 VNĐ cho đơn tối thiểu 199...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1468132619620352%26signature%3D9e1428ac94b13d0a9275c2d8391563299d5760c27f57efbfd9cc8b1e2ccdc28c%26voucherCode%3DMUSIJLDMC%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[Musion.vn]-Giảm 4,500 VNĐ cho đơn tối thiểu 159,000 VNĐ",
+        "code": "MUSIVNJET",
+        "desc": "[Musion.vn] [Musion.vn]-Giảm 4,500 VNĐ cho đơn tối thiểu 159...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1468132117221376%26signature%3D1eff1ce134447f1da09fcd29cc05e4d5e479cc6d02fba40dc3427a75e082a075%26voucherCode%3DMUSIVNJET%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[Musion.vn]-Giảm 3,500 VNĐ cho đơn tối thiểu 119,000 VNĐ",
+        "code": "MUSIMYDZH",
+        "desc": "[Musion.vn] [Musion.vn]-Giảm 3,500 VNĐ cho đơn tối thiểu 119...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1468131613904896%26signature%3D40342583c16ec70ef966b8750bbbc2ebe8b249c340580c403ba67537775e067d%26voucherCode%3DMUSIMYDZH%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[Musion.vn]-Giảm 2,000 VNĐ cho đơn tối thiểu 99,900 VNĐ",
+        "code": "MUSIQSBQU",
+        "desc": "[Musion.vn] [Musion.vn]-Giảm 2,000 VNĐ cho đơn tối thiểu 99,...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1468182541668352%26signature%3D0b363df46b994dfb1c272a8cc674b00cbe2e217919900588d9f888e8413afa66%26voucherCode%3DMUSIQSBQU%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[CChat Clothes]-Giảm 30,000 VNĐ cho đơn tối thiểu 500,000 VNĐ",
+        "code": "CCHATFS20",
+        "desc": "[CChat Clothes] [CChat Clothes]-Giảm 30,000 VNĐ cho đơn tối ...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467085738119168%26signature%3D7fd01abc872dfd10947127591ebf4f11168054e5e32c2cd7a47bf85bb8bde35a%26voucherCode%3DCCHATFS20%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[CChat Clothes]-Giảm 15,000 VNĐ cho đơn tối thiểu 300,000 VNĐ",
+        "code": "CCHATFC26",
+        "desc": "[CChat Clothes] [CChat Clothes]-Giảm 15,000 VNĐ cho đơn tối ...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467086501351424%26signature%3D517a0fbb60644bdc26fc417ec56608e1e9ea0bdf24016b2c2d3f7427e3fdc940%26voucherCode%3DCCHATFC26%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[MsMona.VN]-Giảm 1,000 VNĐ cho đơn tối thiểu 50,000 VNĐ",
+        "code": "MSMOBJZRS",
+        "desc": "[MsMona.VN] [MsMona.VN]-Giảm 1,000 VNĐ cho đơn tối thiểu 50,...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467879954616320%26signature%3D1b6a9b028e0a443e51bcc4e20b74975ec572e0f6d45946e579af15f4ebfcb2fe%26voucherCode%3DMSMOBJZRS%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[BU Baby - Corner]-Giảm 10%-tối đa 100,000 VNĐ cho đơn tối thiểu 150,000 VNĐ",
+        "code": "BUCO107",
+        "desc": "[BU Baby - Corner] [BU Baby - Corner]-Giảm 10%-tối đa 100,00...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1461457083731968%26signature%3D07db9061ddcfe04b687239ab89489477ce29c3b1e9955aec90e0c70e1ad69f48%26voucherCode%3DBUCO107%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[BU Baby - Corner]-Giảm 8%-tối đa 80,000 VNĐ cho đơn tối thiểu 100,000 VNĐ",
+        "code": "BUCO32V",
+        "desc": "[BU Baby - Corner] [BU Baby - Corner]-Giảm 8%-tối đa 80,000 ...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1461456571109384%26signature%3Dbf899e37661095fa3a5795ab87f1ee4aa6a59d0f717932fa57111c57a7e1207a%26voucherCode%3DBUCO32V%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[BU Baby - Corner]-Giảm 5%-tối đa 50,000 VNĐ cho đơn tối thiểu 75,000 VNĐ",
+        "code": "BUCO31V",
+        "desc": "[BU Baby - Corner] [BU Baby - Corner]-Giảm 5%-tối đa 50,000 ...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1461456203190272%26signature%3D8d82d9e622bcaf707d0a5d3d41a06621b618705341c122e1446cdff7e229a513%26voucherCode%3DBUCO31V%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[AQUA MINA]-Giảm 8%-tối đa 0 VNĐ cho đơn tối thiểu 100,000 VNĐ",
+        "code": "AOUO2T0HO",
+        "desc": "[AQUA MINA] [AQUA MINA]-Giảm 8%-tối đa 0 VNĐ cho đơn tối thi...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1468356243001344%26signature%3D412362810405a74c37daf77139442840ee5f87fa8d38ffc23ab532aeabef98b3%26voucherCode%3DAOUO2T0HO%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[Baseus Official Mall]-Giảm 12%-tối đa 50,000 VNĐ cho đơn tối thiểu 143,000 VNĐ",
+        "code": "ME3PF5",
+        "desc": "[Baseus Official Mall] [Baseus Official Mall]-Giảm 12%-tối đ...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466352187641856%26signature%3Dc277f0864fe23c4ef9ce4473e78b4c7e8fbc6004835dd2ea269f1c2dc0dc857f%26voucherCode%3DME3PF5%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[BU Baby Vietnam Official]-Giảm 10%-tối đa 100,000 VNĐ cho đơn tối thiểu 150,000 VNĐ",
+        "code": "BUBA6A6",
+        "desc": "[BU Baby Vietnam Official] [BU Baby Vietnam Official]-Giảm 1...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1461141898694656%26signature%3D085a491ebcd8cc1e6d2796b68bfdd24d5c322bcf56fd08114b5d90b8dd96a0b1%26voucherCode%3DBUBA6A6%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[BU Baby Vietnam Official]-Giảm 8%-tối đa 50,000 VNĐ cho đơn tối thiểu 100,000 VNĐ",
+        "code": "BUBA32A",
+        "desc": "[BU Baby Vietnam Official] [BU Baby Vietnam Official]-Giảm 8...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1461141554892800%26signature%3Dc32226d7ba4583e0f04361e16befd2f7a948a1330cbdd364a02f9e6d1d94f81e%26voucherCode%3DBUBA32A%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[BU Baby Vietnam Official]-Giảm 5%-tối đa 50,000 VNĐ cho đơn tối thiểu 75,000 VNĐ",
+        "code": "BUBA6CX",
+        "desc": "[BU Baby Vietnam Official] [BU Baby Vietnam Official]-Giảm 5...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1461141201129472%26signature%3D849fff596129a260f5af5dc7b8b0a40bac7dc357dea1b7a08f961b7c3813e803%26voucherCode%3DBUBA6CX%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[Takiu's Store]-Giảm 10,000 VNĐ cho đơn tối thiểu 199,000 VNĐ",
+        "code": "TAKIU199K",
+        "desc": "[Takiu's Store] [Takiu's Store]-Giảm 10,000 VNĐ cho đơn tối ...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467984216756224%26signature%3Dd3f24dbbd8ee6f8deca546b6dc0242f094b521a85a8990592ebfce4af033f0b9%26voucherCode%3DTAKIU199K%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[Takiu's Store]-Giảm 4%-tối đa 10,000 VNĐ cho đơn tối thiểu 159,000 VNĐ",
+        "code": "TAKIU159K",
+        "desc": "[Takiu's Store] [Takiu's Store]-Giảm 4%-tối đa 10,000 VNĐ ch...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467984025391104%26signature%3D0129a89868f58fbc912435be57c00a284ded050edb56199495fd6a4b644f533e%26voucherCode%3DTAKIU159K%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[Takiu's Store]-Giảm 5%-tối đa 8,000 VNĐ cho đơn tối thiểu 125,000 VNĐ",
+        "code": "TAKIU125K",
+        "desc": "[Takiu's Store] [Takiu's Store]-Giảm 5%-tối đa 8,000 VNĐ cho...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467983839268864%26signature%3D3951631da74f2846a368fef75a7fb3f73e2f9f7c10039e76095f548469aa169e%26voucherCode%3DTAKIU125K%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[CANIFA Official Store]-Giảm 10%-tối đa 60,000 VNĐ cho đơn tối thiểu 399,000 VNĐ",
+        "code": "MAM11670",
+        "desc": "[CANIFA Official Store] [CANIFA Official Store]-Giảm 10%-tối...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1463679620517888%26signature%3D7c8d1ab2940d34bbaf3b6bec863cfbc2ba31710d33723808d2983ba0572fded8%26voucherCode%3DMAM11670%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[CANIFA Official Store]-Giảm 100,000 VNĐ cho đơn tối thiểu 999,000 VNĐ",
+        "code": "CANIF2075",
+        "desc": "[CANIFA Official Store] [CANIFA Official Store]-Giảm 100,000...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466346417197056%26signature%3D1cc77b8d505dfebb517e7f4c8adefefbfa50d8adb6c86ae200c2181c17e73b7f%26voucherCode%3DCANIF2075%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[CANIFA Official Store]-Giảm 70,000 VNĐ cho đơn tối thiểu 799,000 VNĐ",
+        "code": "CANIF2074",
+        "desc": "[CANIFA Official Store] [CANIFA Official Store]-Giảm 70,000 ...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466346038792192%26signature%3D582855d0efa85446e0597a36382fa47269e7bf65b49f8afb3ec954d395b7cdee%26voucherCode%3DCANIF2074%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[CANIFA Official Store]-Giảm 50,000 VNĐ cho đơn tối thiểu 599,000 VNĐ",
+        "code": "CANIF2073",
+        "desc": "[CANIFA Official Store] [CANIFA Official Store]-Giảm 50,000 ...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466345627881476%26signature%3Df9fd1dd0f631e79636808816947e2b0c748ae12c248e3c8a95816f4856010e2c%26voucherCode%3DCANIF2073%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[CANIFA Official Store]-Giảm 30,000 VNĐ cho đơn tối thiểu 449,000 VNĐ",
+        "code": "CANIF201",
+        "desc": "[CANIFA Official Store] [CANIFA Official Store]-Giảm 30,000 ...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1454107663962112%26signature%3D47f8aadabac6ea38751d09c37931d7abff321f4ce582f795c1a9e5eb17c683a1%26voucherCode%3DCANIF201%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[CANIFA Official Store]-Giảm 20,000 VNĐ cho đơn tối thiểu 369,000 VNĐ",
+        "code": "CANIF2071",
+        "desc": "[CANIFA Official Store] [CANIFA Official Store]-Giảm 20,000 ...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466344899776512%26signature%3Ddf14a9f96d216ec6c9ffa299b256b81c46f72f99def93034c83566ddb8b1ef7e%26voucherCode%3DCANIF2071%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[4Lucky]-Giảm 20,000 VNĐ cho đơn tối thiểu 399,000 VNĐ",
+        "code": "SHOPJUL7",
+        "desc": "[4Lucky] [4Lucky]-Giảm 20,000 VNĐ cho đơn tối thiểu 399,000 ...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467047478726656%26signature%3D36cd9c421cefaf73c7fd27dcaf0b5726a56b83413be465b382f0aff4a82aa6e8%26voucherCode%3DSHOPJUL7%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[4Lucky]-Giảm 10,000 VNĐ cho đơn tối thiểu 299,000 VNĐ",
+        "code": "SHOPJUL6",
+        "desc": "[4Lucky] [4Lucky]-Giảm 10,000 VNĐ cho đơn tối thiểu 299,000 ...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467047143706624%26signature%3D5bb114156ee25e2dce0ca65638ec257171ea1bc442d63101df8426e51af59552%26voucherCode%3DSHOPJUL6%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[4Lucky]-Giảm 5,000 VNĐ cho đơn tối thiểu 199,000 VNĐ",
+        "code": "SHOPJUL5",
+        "desc": "[4Lucky] [4Lucky]-Giảm 5,000 VNĐ cho đơn tối thiểu 199,000 V...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467046841716736%26signature%3D392f4eb515a92373bf9c199e0cc0171f46013576d6ebc509f2ad09e26ea91fd6%26voucherCode%3DSHOPJUL5%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[Ugreen Official Shop]-Giảm 12%-tối đa 50,000 VNĐ cho đơn tối thiểu 183,000 VNĐ",
+        "code": "ME3PF6",
+        "desc": "[Ugreen Official Shop] [Ugreen Official Shop]-Giảm 12%-tối đ...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466352189476864%26signature%3D205ba1cc7c802028bcd7bc0f656c5b6dc6a7750fb79acc60201f9310b2601856%26voucherCode%3DME3PF6%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[TopGia Official]-Giảm 10,000 VNĐ cho đơn tối thiểu 150,000 VNĐ",
+        "code": "7CLS63",
+        "desc": "[TopGia Official] [TopGia Official]-Giảm 10,000 VNĐ cho đơn ...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1454314813427712%26signature%3D95520efe97594011e478b16619909843edac84e911340890444172802ddf4247%26voucherCode%3D7CLS63%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[NAIL LA MOS]-Giảm 15%-tối đa 3,000 VNĐ cho đơn tối thiểu 7,000 VNĐ",
+        "code": "NAILTHAP",
+        "desc": "[NAIL LA MOS] [NAIL LA MOS]-Giảm 15%-tối đa 3,000 VNĐ cho đơ...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1468037107978240%26signature%3D7182d92c88f14229515cbc85aec41f5ff67c98d24f12c130e38c46013505745a%26voucherCode%3DNAILTHAP%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[MasterfanVN]-Giảm 50,000 VNĐ cho đơn tối thiểu 699,000 VNĐ",
+        "code": "NQVU30",
+        "desc": "[MasterfanVN] [MasterfanVN]-Giảm 50,000 VNĐ cho đơn tối thiể...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1468177608380416%26signature%3D0905495eee46a41e312cc273a9efcee6a8a3423cbc0b2a15a851132fb1b8bf3c%26voucherCode%3DNQVU30%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[Flower Knows Official Store]-Giảm 12%-tối đa 94,000 VNĐ cho đơn tối thiểu 468,000 VNĐ",
+        "code": "ME3PF37",
+        "desc": "[Flower Knows Official Store] [Flower Knows Official Store]-...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466352373895168%26signature%3Da92b638c2d708d2b7b4ff6a9ff1b6b6a72174ad36d5692db76c39518fc158d54%26voucherCode%3DME3PF37%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[GUMAN Official Shop]-Giảm 3%-tối đa 0 VNĐ cho đơn tối thiểu 0 VNĐ",
+        "code": "IENJNV6MH",
+        "desc": "[GUMAN Official Shop] [GUMAN Official Shop]-Giảm 3%-tối đa 0...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467842039549952%26signature%3Db56834d8f901f26d3470e9b2346b3b0efc37e5dbe9034c23160dba432d5dfab4%26voucherCode%3DIENJNV6MH%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[JURSUE Official Shop]-Giảm 3%-tối đa 0 VNĐ cho đơn tối thiểu 0 VNĐ",
+        "code": "JURSNHPKZ",
+        "desc": "[JURSUE Official Shop] [JURSUE Official Shop]-Giảm 3%-tối đa...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467841291653120%26signature%3D2972377bfff5c197cc5a32f459ccef0d133c2eb105479f9625e21dee9810f960%26voucherCode%3DJURSNHPKZ%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[Hibi Sports]-Giảm 5%-tối đa 20,000 VNĐ cho đơn tối thiểu 350,000 VNĐ",
+        "code": "HIBIJ2610",
+        "desc": "[Hibi Sports] [Hibi Sports]-Giảm 5%-tối đa 20,000 VNĐ cho đơ...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1468075461218304%26signature%3D5a896ea67bdebe3f589c821710db1b16697e6ef074a4019868d9ca8f1e15de6c%26voucherCode%3DHIBIJ2610%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[Diller Vietnam ]-Giảm 12%-tối đa 50,000 VNĐ cho đơn tối thiểu 194,000 VNĐ",
+        "code": "ME3PF48",
+        "desc": "[Diller Vietnam ] [Diller Vietnam ]-Giảm 12%-tối đa 50,000 V...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466352441004032%26signature%3Db1a279f428d8b976b5eb877e1a54d8f0823d49f1233b676f831f3d9636241f77%26voucherCode%3DME3PF48%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[MAANGE]-Giảm 12%-tối đa 50,000 VNĐ cho đơn tối thiểu 41,000 VNĐ",
+        "code": "ME3PF15",
+        "desc": "[MAANGE] [MAANGE]-Giảm 12%-tối đa 50,000 VNĐ cho đơn tối thi...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466352247672832%26signature%3Da2859339da39c996b079879b86bf381959021bee86b0ea900d5d3b0026a3649b%26voucherCode%3DME3PF15%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[Comet Official Store]-Giảm 25,000 VNĐ cho đơn tối thiểu 619,000 VNĐ",
+        "code": "COMET25K",
+        "desc": "[Comet Official Store] [Comet Official Store]-Giảm 25,000 VN...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466465318113280%26signature%3D816a8ef1da205a667eb0436c3a931385802e25d18d302ea7f23fe5dde321d7d7%26voucherCode%3DCOMET25K%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[Comet Official Store]-Giảm 8,000 VNĐ cho đơn tối thiểu 499,000 VNĐ",
+        "code": "COME8K",
+        "desc": "[Comet Official Store] [Comet Official Store]-Giảm 8,000 VNĐ...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466464712560640%26signature%3D5d34d34fe9897e00ce702c8754a6953b93ada50744ccb51fb9f959a4fd352868%26voucherCode%3DCOME8K%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[ZEESEA Official Store]-Giảm 12%-tối đa 50,000 VNĐ cho đơn tối thiểu 67,000 VNĐ",
+        "code": "ME3PF12",
+        "desc": "[ZEESEA Official Store] [ZEESEA Official Store]-Giảm 12%-tối...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466352221458432%26signature%3D662ad865c6d2de844633aa1fb74480d7b46ecb2baada0c9c16a55e835bfdd766%26voucherCode%3DME3PF12%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[Nước mắm Tĩn Official Store]-Giảm 30%-tối đa 100,000 VNĐ cho đơn tối thiểu 0 VNĐ",
+        "code": "LANGFDWEJ",
+        "desc": "[Nước mắm Tĩn Official Store] [Nước mắm Tĩn Official Store]-...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467864292954112%26signature%3Dc12dda6d503f7d65e2ba2fbd72e55ffd5e827cead6232c6cd9e10d89604ad271%26voucherCode%3DLANGFDWEJ%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[Trust Link (Good Speed)]-Giảm 300,000 VNĐ cho đơn tối thiểu 3,000,000 VNĐ",
+        "code": "TRUSLINK",
+        "desc": "[Trust Link (Good Speed)] [Trust Link (Good Speed)]-Giảm 300...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1468126522544128%26signature%3D544f995044d0112f7ef4efa99bbddd371ad2189cc451432a9ff4eb3f778ef6cc%26voucherCode%3DTRUSLINK%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[Điện Tử HCM]-Giảm 50,000 VNĐ cho đơn tối thiểu 600,000 VNĐ",
+        "code": "DIEN2222",
+        "desc": "[Điện Tử HCM] [Điện Tử HCM]-Giảm 50,000 VNĐ cho đơn tối thiể...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1468068539699200%26signature%3Ddcb29498c5cdb84c58a0cfdf1d29618195015c2d0445f335c9153b54dae36c14%26voucherCode%3DDIEN2222%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[ZOMI Official Store]-Giảm 10%-tối đa 0 VNĐ cho đơn tối thiểu 150,000 VNĐ",
+        "code": "ZOMIVCA50",
+        "desc": "[ZOMI Official Store] [ZOMI Official Store]-Giảm 10%-tối đa ...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467727627325440%26signature%3D7a0a11106565f356085d861dbff818d497259749277ac7a6b77f77a5d6125875%26voucherCode%3DZOMIVCA50%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[Xuong Giay VNXK ( Annmodels)]-Giảm 15,000 VNĐ cho đơn tối thiểu 188,000 VNĐ",
+        "code": "ANNMGV3KD",
+        "desc": "[Xuong Giay VNXK ( Annmodels)] [Xuong Giay VNXK ( Annmodels)...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1468028157726720%26signature%3D85faf916cfea21876f8e2e7375ea90a45386bc9732f6a4dd43fe72d91b920bc4%26voucherCode%3DANNMGV3KD%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[Yêu Bếp Nghiện Nhà VNM]-Giảm 15,000 VNĐ cho đơn tối thiểu 580,000 VNĐ",
+        "code": "YEUB9JWYZ",
+        "desc": "[Yêu Bếp Nghiện Nhà VNM] [Yêu Bếp Nghiện Nhà VNM]-Giảm 15,00...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1468069647912960%26signature%3Ddf50fc055552be0d9f11e8202d8ec0190b7ef2ff67e0d69aebf88ab4562f4c9d%26voucherCode%3DYEUB9JWYZ%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[HLF.Style - Áo thun Cotton100%]-Giảm 9,000 VNĐ cho đơn tối thiểu 159,000 VNĐ",
+        "code": "SHOPZ9RL2",
+        "desc": "[HLF.Style - Áo thun Cotton100%] [HLF.Style - Áo thun Cotton...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467941050159104%26signature%3D2630a3085d45bdc9798900b2a1ad784fec6a7edc5fe4bde2f5d26efa7c9520a7%26voucherCode%3DSHOPZ9RL2%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[Guzado Official]-Giảm 5,000 VNĐ cho đơn tối thiểu 399,000 VNĐ",
+        "code": "GUZA20D23",
+        "desc": "[Guzado Official] [Guzado Official]-Giảm 5,000 VNĐ cho đơn t...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467034156306432%26signature%3D3ab94400439ac04e100d3a7af5ce7cbb6d749f078317df1684d4c42e6f4564b7%26voucherCode%3DGUZA20D23%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[harrietdesigning]-Giảm 10,000 VNĐ cho đơn tối thiểu 329,000 VNĐ",
+        "code": "HARR10K",
+        "desc": "[harrietdesigning] [harrietdesigning]-Giảm 10,000 VNĐ cho đơ...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1468157543223296%26signature%3Df0b61b13fcb054c4ce69c7dab2cb419cc0762a9ad6d4bd21e2214a04c91eed4a%26voucherCode%3DHARR10K%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[oder_nội địa trung]-Giảm 10,000 VNĐ cho đơn tối thiểu 150,000 VNĐ",
+        "code": "MAIPWW5XK",
+        "desc": "[oder_nội địa trung] [oder_nội địa trung]-Giảm 10,000 VNĐ ch...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467698618077184%26signature%3Dc99737f1ba8a39295aade2990fda71d72b31370423e59dc69bbe671fed52734d%26voucherCode%3DMAIPWW5XK%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[Mẹ Cá Heo]-Giảm 12%-tối đa 220,000 VNĐ cho đơn tối thiểu 190,000 VNĐ",
+        "code": "HOTMHG12T",
+        "desc": "[Mẹ Cá Heo] [Mẹ Cá Heo]-Giảm 12%-tối đa 220,000 VNĐ cho đơn ...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1461282323861504%26signature%3Dfc1d7c5702c3f7785828ac65ea1466ef12dd631cbc050165bf92bf371f9eae38%26voucherCode%3DHOTMHG12T%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[Haco Cosmetics]-Giảm 17,000 VNĐ cho đơn tối thiểu 0 VNĐ",
+        "code": "HACOM8391",
+        "desc": "[Haco Cosmetics] [Haco Cosmetics]-Giảm 17,000 VNĐ cho đơn tố...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467724446732288%26signature%3D8568595a4a3e3c9d7a6b0c9d2d39d4e66a55a0d0a9ca114842480feb78125648%26voucherCode%3DHACOM8391%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[Topfitvn]-Giảm 10,000 VNĐ cho đơn tối thiểu 119,000 VNĐ",
+        "code": "TOPF01",
+        "desc": "[Topfitvn] [Topfitvn]-Giảm 10,000 VNĐ cho đơn tối thiểu 119,...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1468174094471168%26signature%3D05b0be854c2d66f071eac2bd427fd09d1a5e770cbe754989c1fce38f6e77ae70%26voucherCode%3DTOPF01%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[HÀ LINH CLOTHINGS]-Giảm 30,000 VNĐ cho đơn tối thiểu 150,000 VNĐ",
+        "code": "HALIX6N06",
+        "desc": "[HÀ LINH CLOTHINGS] [HÀ LINH CLOTHINGS]-Giảm 30,000 VNĐ cho ...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1468017553739776%26signature%3Dd46f2b2c20daa1bedc1b4f63894e8e3f81aab0f9345595fee75116ab661a54b2%26voucherCode%3DHALIX6N06%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[BeHomes - Nội Thất Lắp Ráp]-Giảm 10%-tối đa 200,000 VNĐ cho đơn tối thiểu 699,000 VNĐ",
+        "code": "BEHOSFJDG",
+        "desc": "[BeHomes - Nội Thất Lắp Ráp] [BeHomes - Nội Thất Lắp Ráp]-Gi...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1468083966742528%26signature%3Dc9dc4e3c86902f6cb3fc77ea541feb3cb9c34e6383b8d4eef93b12aaf13d47a7%26voucherCode%3DBEHOSFJDG%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[EROSSKA & CO.]-Giảm 40,000 VNĐ cho đơn tối thiểu 199,000 VNĐ",
+        "code": "EROS40TOP",
+        "desc": "[EROSSKA & CO.] [EROSSKA & CO.]-Giảm 40,000 VNĐ cho đơn tối ...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1468080359510016%26signature%3D3b6a381dcb25ed3dd35e8f8be824e3db162d5174e4eb624a809ad2fc2aa2ad85%26voucherCode%3DEROS40TOP%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[EROSSKA & CO.]-Giảm 39,000 VNĐ cho đơn tối thiểu 230,000 VNĐ",
+        "code": "EROS40K01",
+        "desc": "[EROSSKA & CO.] [EROSSKA & CO.]-Giảm 39,000 VNĐ cho đơn tối ...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466965680230400%26signature%3D910375c48350c3c6da8823eff9d364d1dc272b760de1a8c7b9724e38244f0236%26voucherCode%3DEROS40K01%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[EROSSKA & CO.]-Giảm 30,000 VNĐ cho đơn tối thiểu 199,000 VNĐ",
+        "code": "EROS30ALL",
+        "desc": "[EROSSKA & CO.] [EROSSKA & CO.]-Giảm 30,000 VNĐ cho đơn tối ...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1468079360348160%26signature%3Df175f7802429fd69fdcdf1bd6e099e04a7d26b783815b0277a00f16b8309107d%26voucherCode%3DEROS30ALL%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[Panasonic Official Store]-Giảm 400,000 VNĐ cho đơn tối thiểu 0 VNĐ",
+        "code": "PANA400",
+        "desc": "[Panasonic Official Store] [Panasonic Official Store]-Giảm 4...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467029500891136%26signature%3Da6fb7bbeda347feebc58cdae1953f9bd50bf882f44ff1aac3700aeefc4cc2f3c%26voucherCode%3DPANA400%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[Panasonic Official Store]-Giảm 500,000 VNĐ cho đơn tối thiểu 0 VNĐ",
+        "code": "PANA500",
+        "desc": "[Panasonic Official Store] [Panasonic Official Store]-Giảm 5...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467033101045760%26signature%3Dbc02f1ea4abb39816501f53d8c2ce13ed8cd41f07def1480d9a345abb56eb994%26voucherCode%3DPANA500%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[SINOCARE VIETNAM OFFICIAL]-Giảm 20%-tối đa 50,000 VNĐ cho đơn tối thiểu 149,000 VNĐ",
+        "code": "207FMCG30",
+        "desc": "[SINOCARE VIETNAM OFFICIAL] [SINOCARE VIETNAM OFFICIAL]-Giảm...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466515498635264%26signature%3D988181c9cf020e3b7c6a53bab0bd773bf4d9e9a36bd82c28d6eeb193b9483100%26voucherCode%3D207FMCG30%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[SUNHOUSE OFFICIAL STORE]-Giảm 12%-tối đa 120,000 VNĐ cho đơn tối thiểu 450,000 VNĐ",
+        "code": "SUNMD207",
+        "desc": "[SUNHOUSE OFFICIAL STORE] [SUNHOUSE OFFICIAL STORE]-Giảm 12%...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466607756808192%26signature%3Ddc579e76f148bd34b41f5c91a2256f142db47534dca12db34d1723be3a97e2dc%26voucherCode%3DSUNMD207%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[Carslan Official Store]-Giảm 12%-tối đa 68,000 VNĐ cho đơn tối thiểu 340,000 VNĐ",
+        "code": "ME3PF1",
+        "desc": "[Carslan Official Store] [Carslan Official Store]-Giảm 12%-t...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466352162344960%26signature%3Deeeb0a2d09a4ab461a8d4989da40d1486adb5ac8c656291f52f32699d45de546%26voucherCode%3DME3PF1%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[Kính Mắt Lily Official Store]-Giảm 10%-tối đa 25,000 VNĐ cho đơn tối thiểu 199,000 VNĐ",
+        "code": "FOCEX2",
+        "desc": "[Kính Mắt Lily Official Store] [Kính Mắt Lily Official Store...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1463670450327552%26signature%3Db18c9e5fff7ed02c1b0a10832ad21bb2cda588d77247c2171f2074f5157c37b2%26voucherCode%3DFOCEX2%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[HOMCA Store]-Giảm 15,000 VNĐ cho đơn tối thiểu 299,000 VNĐ",
+        "code": "HOMJUL",
+        "desc": "[HOMCA Store] [HOMCA Store]-Giảm 15,000 VNĐ cho đơn tối thiể...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466369796640768%26signature%3D23bb1e28fa78a22a4f6ba18114ae660b43104a083ad59a0016390dee863192f1%26voucherCode%3DHOMJUL%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[Vention Official Shop]-Giảm 12%-tối đa 50,000 VNĐ cho đơn tối thiểu 167,000 VNĐ",
+        "code": "ME3PF30",
+        "desc": "[Vention Official Shop] [Vention Official Shop]-Giảm 12%-tối...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466352323432448%26signature%3Df556ef7a8254a2ef42bdeb7e65298d6cf0200adb25e7c508236905d8707c71de%26voucherCode%3DME3PF30%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[Toshiko Official Store]-Giảm 2,500,000 VNĐ cho đơn tối thiểu 22,000,000 VNĐ",
+        "code": "TOSH9N1",
+        "desc": "[Toshiko Official Store] [Toshiko Official Store]-Giảm 2,500...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1468175612416004%26signature%3D9d55c9060b7cc77f2dfdb227bf42e4ccd39cfde886db9084bafd518e6383e760%26voucherCode%3DTOSH9N1%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[Toshiko Official Store]-Giảm 1,000,000 VNĐ cho đơn tối thiểu 19,000,000 VNĐ",
+        "code": "TOSHULTRA",
+        "desc": "[Toshiko Official Store] [Toshiko Official Store]-Giảm 1,000...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1468176080867328%26signature%3D3961cbfcc0c456bec8ab1e9574bced074417691933f3e5d0d0da18da7033664d%26voucherCode%3DTOSHULTRA%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[Toshiko Official Store]-Giảm 1,000,000 VNĐ cho đơn tối thiểu 17,000,000 VNĐ",
+        "code": "TOSHIRON",
+        "desc": "[Toshiko Official Store] [Toshiko Official Store]-Giảm 1,000...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1468176510128128%26signature%3Dc6d4ed2e83726547ae87107089728647f8f4b0924d44fd0f2032ce4a19717d2d%26voucherCode%3DTOSHIRON%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[Toshiko Official Store]-Giảm 810,000 VNĐ cho đơn tối thiểu 6,300,000 VNĐ",
+        "code": "TOSHX11",
+        "desc": "[Toshiko Official Store] [Toshiko Official Store]-Giảm 810,0...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1468175041466368%26signature%3D6705d92be4b23d419db24f8287bd8bc458a78295d6557585edfa0fd5a4b653b7%26voucherCode%3DTOSHX11%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[Toshiko Official Store]-Giảm 650,000 VNĐ cho đơn tối thiểu 4,900,000 VNĐ",
+        "code": "TOSH15",
+        "desc": "[Toshiko Official Store] [Toshiko Official Store]-Giảm 650,0...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1468174428049408%26signature%3Db8b1adfaef300be9bdae98ce5fd2901c1f2789d59b63bcb95f98a64394d1ca71%26voucherCode%3DTOSH15%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[Supin shop Găng Tay SG]-Giảm 4,000 VNĐ cho đơn tối thiểu 399,000 VNĐ",
+        "code": "MINA19746",
+        "desc": "[Supin shop Găng Tay SG] [Supin shop Găng Tay SG]-Giảm 4,000...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467732868894720%26signature%3D698420c3205246ccadb0125c13c08f0a97feb9820411c752a80e6a76350a19cb%26voucherCode%3DMINA19746%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[Supin shop Găng Tay SG]-Giảm 3,000 VNĐ cho đơn tối thiểu 299,000 VNĐ",
+        "code": "MINA19737",
+        "desc": "[Supin shop Găng Tay SG] [Supin shop Găng Tay SG]-Giảm 3,000...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467812862529536%26signature%3D61e825372d79e73ebad79b0511218daf50e05f080ff96ec93a8eb55e6618760d%26voucherCode%3DMINA19737%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[QC.store - Cenly Shop]-Giảm 99%-tối đa 1,000 VNĐ cho đơn tối thiểu 1,000 VNĐ",
+        "code": "QUYNRDVEK",
+        "desc": "[QC.store - Cenly Shop] [QC.store - Cenly Shop]-Giảm 99%-tối...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467940478423040%26signature%3D1757bd67c88c944333762b40104f3bc72e6cff618f7bab8f90f2f006bc324f0e%26voucherCode%3DQUYNRDVEK%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[Colorkey Official Store]-Giảm 12%-tối đa 50,000 VNĐ cho đơn tối thiểu 109,000 VNĐ",
+        "code": "ME3PF3",
+        "desc": "[Colorkey Official Store] [Colorkey Official Store]-Giảm 12%...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466352181088256%26signature%3D39062ccebd450b97b0c39ec64851e26c5a793bbdf44a3575af3bd0176427b732%26voucherCode%3DME3PF3%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[Tuxa store]-Giảm 25,000 VNĐ cho đơn tối thiểu 159,000 VNĐ",
+        "code": "TUIX6K1T1",
+        "desc": "[Tuxa store] [Tuxa store]-Giảm 25,000 VNĐ cho đơn tối thiểu ...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1468129877987328%26signature%3Dfce3371ab669f441cc1f18722c052841e0bfbc999d11f98bf9cadfc6c25d413a%26voucherCode%3DTUIX6K1T1%26ref%3Dsansandeals"
+    },
+    {
+        "title": "[Tuxa store]-Giảm 20%-tối đa 800,000 VNĐ cho đơn tối thiểu 150,000 VNĐ",
+        "code": "TUIXFJHXJ",
+        "desc": "[Tuxa store] [Tuxa store]-Giảm 20%-tối đa 800,000 VNĐ cho đơ...",
+        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1468130313932800%26signature%3D59b1736c84c06c957851e7fec661d46b8a6db79d780aa46cf76b4179707feed6%26voucherCode%3DTUIXFJHXJ%26ref%3Dsansandeals"
+    },
+    {
         "title": "[Therabody Việt Nam]-Giảm 10%-tối đa 0 VNĐ cho đơn tối thiểu 5,000,000 VNĐ",
         "code": "THERA10PD",
         "desc": "[Therabody Việt Nam] [Therabody Việt Nam]-Giảm 10%-tối đa 0 ...",
@@ -30,18 +522,6 @@
         "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466992894447620%26signature%3D8a835dd18180279746aab147fd22e8a5715d5324d74b340ecef7a29f657b3af0%26voucherCode%3DMINNQ3MTB%26ref%3Dsansandeals"
     },
     {
-        "title": "[UNIQ Official Store ]-Giảm 75,000 VNĐ cho đơn tối thiểu 1,000,000 VNĐ",
-        "code": "UNIQ75K",
-        "desc": "[UNIQ Official Store ] [UNIQ Official Store ]-Giảm 75,000 VN...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467260021149696%26signature%3D73d9553fa4d7b5d7ad68c0f783fddc0842d0928d1b9ce1edb17d6b51b6fd18da%26voucherCode%3DUNIQ75K%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[UNIQ Official Store ]-Giảm 25,000 VNĐ cho đơn tối thiểu 350,000 VNĐ",
-        "code": "UNIQ25K2",
-        "desc": "[UNIQ Official Store ] [UNIQ Official Store ]-Giảm 25,000 VN...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467260389986304%26signature%3Db750c49531b9212931c802ffae477fe929e5b1c1f181c4a1ff9889ed1ca0869d%26voucherCode%3DUNIQ25K2%26ref%3Dsansandeals"
-    },
-    {
         "title": "[CNDSHOE]-Giảm 12,000 VNĐ cho đơn tối thiểu 200,000 VNĐ",
         "code": "CNDSCHAMB",
         "desc": "[CNDSHOE] [CNDSHOE]-Giảm 12,000 VNĐ cho đơn tối thiểu 200,00...",
@@ -60,46 +540,10 @@
         "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467029846003712%26signature%3D8da277c57007bfd3dac0554cc8793cd02bab893a72f16556d6b21878e3000adb%26voucherCode%3DWATCIW50%26ref%3Dsansandeals"
     },
     {
-        "title": "[MY WAY FASHION ChínhHãng]-Giảm 230,000 VNĐ cho đơn tối thiểu 2,250,000 VNĐ",
-        "code": "MYWABNNJ",
-        "desc": "[MY WAY FASHION ChínhHãng] [MY WAY FASHION ChínhHãng]-Giảm 2...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467394624753664%26signature%3Dc73e23e05b450c6d6560320c77e2ef9572cbb84c5212cb5573eaffe3e62b72b7%26voucherCode%3DMYWABNNJ%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[MY WAY FASHION ChínhHãng]-Giảm 100,000 VNĐ cho đơn tối thiểu 1,098,000 VNĐ",
-        "code": "MYWABNJL",
-        "desc": "[MY WAY FASHION ChínhHãng] [MY WAY FASHION ChínhHãng]-Giảm 1...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467394933690368%26signature%3Df696a2cb551ef1756bd388265b5e33450094f8536d15ed0c6079b094adbe81f5%26voucherCode%3DMYWABNJL%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[MY WAY FASHION ChínhHãng]-Giảm 80,000 VNĐ cho đơn tối thiểu 798,000 VNĐ",
-        "code": "MYWABHTY",
-        "desc": "[MY WAY FASHION ChínhHãng] [MY WAY FASHION ChínhHãng]-Giảm 8...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467395151925248%26signature%3D25fead2329811bf3437ad97fc49afe4bbb5f27d88af73d345d108ae1381a50e7%26voucherCode%3DMYWABHTY%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[MY WAY FASHION ChínhHãng]-Giảm 30,000 VNĐ cho đơn tối thiểu 499,000 VNĐ",
-        "code": "MYWACXVB",
-        "desc": "[MY WAY FASHION ChínhHãng] [MY WAY FASHION ChínhHãng]-Giảm 3...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467395344601088%26signature%3D3b53c5e8502e0b88465315225eff8aa017331ff66441a1d8d18318f6a91ceea0%26voucherCode%3DMYWACXVB%26ref%3Dsansandeals"
-    },
-    {
         "title": "[VANESSA _Eyewear]-Giảm 10%-tối đa 5,000 VNĐ cho đơn tối thiểu 20,000 VNĐ",
         "code": "VANEJGVHU",
         "desc": "[VANESSA _Eyewear] [VANESSA _Eyewear]-Giảm 10%-tối đa 5,000 ...",
         "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467122808950784%26signature%3Db75606e71001cf3340a4fca9ad98c9745de671f4eb251c369983cc19ffbdce95%26voucherCode%3DVANEJGVHU%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[CRENOT Official Store]-Giảm 75,000 VNĐ cho đơn tối thiểu 1,000,000 VNĐ",
-        "code": "CREN75K",
-        "desc": "[CRENOT Official Store] [CRENOT Official Store]-Giảm 75,000 ...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467261271314432%26signature%3D622e179781b7e9f1625972b4bf8c8dc3773f481d0f89c22ffd8081015b6e3469%26voucherCode%3DCREN75K%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[CRENOT Official Store]-Giảm 25,000 VNĐ cho đơn tối thiểu 350,000 VNĐ",
-        "code": "CREN25K",
-        "desc": "[CRENOT Official Store] [CRENOT Official Store]-Giảm 25,000 ...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467262360915968%26signature%3D728a648c244225d5cddd16e97a4b9e9a7c4d5bbb99cff9ff6dff93bb198929aa%26voucherCode%3DCREN25K%26ref%3Dsansandeals"
     },
     {
         "title": "[AQUA MINA]-Giảm 5%-tối đa 0 VNĐ cho đơn tối thiểu 100,000 VNĐ",
@@ -132,12 +576,6 @@
         "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467342522847232%26signature%3D40bb03bd084da86555b423e7503e1053c73a64da6e3a48efeb95003881c15c3f%26voucherCode%3DBINHZM0BD%26ref%3Dsansandeals"
     },
     {
-        "title": "[Siêu Thị Điện Máy HD]-Giảm 20,000 VNĐ cho đơn tối thiểu 550,000 VNĐ",
-        "code": "SIEU34278",
-        "desc": "[Siêu Thị Điện Máy HD] [Siêu Thị Điện Máy HD]-Giảm 20,000 VN...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467220712001536%26signature%3Dfcc37178901460e6961c9ff7907ec67a3c7fab16ea4b72d5c9fb999bf6448ba5%26voucherCode%3DSIEU34278%26ref%3Dsansandeals"
-    },
-    {
         "title": "[Siêu Thị Điện Máy HD]-Giảm 50,000 VNĐ cho đơn tối thiểu 300,000 VNĐ",
         "code": "SIEU42088",
         "desc": "[Siêu Thị Điện Máy HD] [Siêu Thị Điện Máy HD]-Giảm 50,000 VN...",
@@ -150,453 +588,15 @@
         "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467221534478336%26signature%3D64a3d40429a386aeca1646477636cadbc99ba16bd62f267f323e8c9b811bed75%26voucherCode%3DSIEU45500%26ref%3Dsansandeals"
     },
     {
-        "title": "[Siêu Thị Điện Máy HD]-Giảm 10,000 VNĐ cho đơn tối thiểu 250,000 VNĐ",
-        "code": "SIEU21985",
-        "desc": "[Siêu Thị Điện Máy HD] [Siêu Thị Điện Máy HD]-Giảm 10,000 VN...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467220410404864%26signature%3Df077fdd2eef4aa59718cd52be27d63cea2d237f931df02508f79e0bfba016ef6%26voucherCode%3DSIEU21985%26ref%3Dsansandeals"
-    },
-    {
         "title": "[Siêu Thị Điện Máy HD]-Giảm 35,000 VNĐ cho đơn tối thiểu 150,000 VNĐ",
         "code": "SIEU54199",
         "desc": "[Siêu Thị Điện Máy HD] [Siêu Thị Điện Máy HD]-Giảm 35,000 VN...",
         "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467223471722496%26signature%3Dce8e88ab04b3429ee6a5ba23576d12a22c9756d5b38c73fe1727321342e61ac2%26voucherCode%3DSIEU54199%26ref%3Dsansandeals"
     },
     {
-        "title": "[Siêu Thị Điện Máy HD]-Giảm 5,000 VNĐ cho đơn tối thiểu 120,000 VNĐ",
-        "code": "SIEU21260",
-        "desc": "[Siêu Thị Điện Máy HD] [Siêu Thị Điện Máy HD]-Giảm 5,000 VNĐ...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467219796201472%26signature%3D4a38dcc81823c4a13e6a73312b3e6727000549de680f4256a93a9e5dd07b0c3d%26voucherCode%3DSIEU21260%26ref%3Dsansandeals"
-    },
-    {
         "title": "[Kivu - Store]-Giảm 10,000 VNĐ cho đơn tối thiểu 319,000 VNĐ",
         "code": "KIVU005",
         "desc": "[Kivu - Store] [Kivu - Store]-Giảm 10,000 VNĐ cho đơn tối th...",
         "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467303960678400%26signature%3Dd1012cdbd1f5e6af277b23c9d011ed54c09b3e0cc9705f4d254e4819b3915286%26voucherCode%3DKIVU005%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[Điện Máy ADESTECH]-Giảm 20,000 VNĐ cho đơn tối thiểu 100,000 VNĐ",
-        "code": "ADESKHAN",
-        "desc": "[Điện Máy ADESTECH] [Điện Máy ADESTECH]-Giảm 20,000 VNĐ cho ...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467380045090816%26signature%3D8c4d04f9be56fdaad90aee753502350c70cb8ed0c6caa6227d783bebb5495cbf%26voucherCode%3DADESKHAN%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[HiPP_Official_Store]-Giảm 15%-tối đa 2,000,000 VNĐ cho đơn tối thiểu 500,000 VNĐ",
-        "code": "HIPPJUX",
-        "desc": "[HiPP_Official_Store] [HiPP_Official_Store]-Giảm 15%-tối đa ...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467178718498816%26signature%3D423e9767230799f463f29ca646c8ea65d927b32e39c5569a95c50a0a0f33907c%26voucherCode%3DHIPPJUX%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[HiPP_Official_Store]-Giảm 14%-tối đa 2,000,000 VNĐ cho đơn tối thiểu 299,000 VNĐ",
-        "code": "HIPPCNS",
-        "desc": "[HiPP_Official_Store] [HiPP_Official_Store]-Giảm 14%-tối đa ...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467215620509696%26signature%3D4e49ce03bca863fadc7520da12808efc43cd0c248b48b3ebb7924e5f04246a68%26voucherCode%3DHIPPCNS%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[HiPP_Official_Store]-Giảm 15%-tối đa 2,000,000 VNĐ cho đơn tối thiểu 299,000 VNĐ",
-        "code": "HIPPFKU",
-        "desc": "[HiPP_Official_Store] [HiPP_Official_Store]-Giảm 15%-tối đa ...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467189061652480%26signature%3Dba790e47dff118a8ebdaf71d1cffebb78b596aa7cc6efa60c6a148b459f940f3%26voucherCode%3DHIPPFKU%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[HiPP_Official_Store]-Giảm 15%-tối đa 2,000,000 VNĐ cho đơn tối thiểu 299,000 VNĐ",
-        "code": "HIPPKGU",
-        "desc": "[HiPP_Official_Store] [HiPP_Official_Store]-Giảm 15%-tối đa ...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467178256076800%26signature%3D8ef23f42913588d6b5309e3527eabe3d9517293264b6ac45a8736f6af4859a6d%26voucherCode%3DHIPPKGU%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[HiPP_Official_Store]-Giảm 14%-tối đa 2,000,000 VNĐ cho đơn tối thiểu 250,000 VNĐ",
-        "code": "HIPPNHU",
-        "desc": "[HiPP_Official_Store] [HiPP_Official_Store]-Giảm 14%-tối đa ...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467216005861376%26signature%3Dcb41e0103a1e31eaeece447dd51a4d68dd676a1ef4353676a3c0ac7f096a4907%26voucherCode%3DHIPPNHU%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[Dinh Dưỡng Nestlé Chính Hãng]-Giảm 8%-tối đa 100,000 VNĐ cho đơn tối thiểu 1,000,000 VNĐ",
-        "code": "NIN2007B",
-        "desc": "[Dinh Dưỡng Nestlé Chính Hãng] [Dinh Dưỡng Nestlé Chính Hãng...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1463523994800128%26signature%3D247ea4b12c69b01e0ae84a4cdc5904ea39596879dc00fffeadabafce7ba8a714%26voucherCode%3DNIN2007B%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[Dinh Dưỡng Nestlé Chính Hãng]-Giảm 6%-tối đa 50,000 VNĐ cho đơn tối thiểu 599,000 VNĐ",
-        "code": "NIN2007C",
-        "desc": "[Dinh Dưỡng Nestlé Chính Hãng] [Dinh Dưỡng Nestlé Chính Hãng...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1463524010266624%26signature%3D49a92a512e19fd3242ed4258ee8f741ed3e2d67248772aa628de80c1cb8a2604%26voucherCode%3DNIN2007C%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[Dinh Dưỡng Nestlé Chính Hãng]-Giảm 12%-tối đa 60,000 VNĐ cho đơn tối thiểu 399,000 VNĐ",
-        "code": "NIN2007A",
-        "desc": "[Dinh Dưỡng Nestlé Chính Hãng] [Dinh Dưỡng Nestlé Chính Hãng...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1463523995455492%26signature%3Dcbf0172a918374103ce13afcb21decdb74cdfe3fa1c8f66ec81f0006240e045b%26voucherCode%3DNIN2007A%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[NAIL LA MOS]-Giảm 15%-tối đa 190,000 VNĐ cho đơn tối thiểu 1,000,000 VNĐ",
-        "code": "NAILT8",
-        "desc": "[NAIL LA MOS] [NAIL LA MOS]-Giảm 15%-tối đa 190,000 VNĐ cho ...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467094404599808%26signature%3D28a53860262ae8c6ef1766bb659d3228600cdecea80f5d26da2c94e0c85ba379%26voucherCode%3DNAILT8%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[NAIL LA MOS]-Giảm 15,000 VNĐ cho đơn tối thiểu 79,000 VNĐ",
-        "code": "NAILHH",
-        "desc": "[NAIL LA MOS] [NAIL LA MOS]-Giảm 15,000 VNĐ cho đơn tối thiể...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467010426507264%26signature%3D986038d440cc047e83e7e5386cffb1bc36bcabf44e78816617f11542a260afd1%26voucherCode%3DNAILHH%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[NAIL LA MOS]-Giảm 15%-tối đa 0 VNĐ cho đơn tối thiểu 19,000 VNĐ",
-        "code": "NAILHERO",
-        "desc": "[NAIL LA MOS] [NAIL LA MOS]-Giảm 15%-tối đa 0 VNĐ cho đơn tố...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467096962076672%26signature%3Dfc92d52ce6669e70f75c9129e6e93432f500c64bfbc064060641d401ee649874%26voucherCode%3DNAILHERO%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[TRONSMART VN Official Store]-Giảm 1,000 VNĐ cho đơn tối thiểu 0 VNĐ",
-        "code": "TRON1000",
-        "desc": "[TRONSMART VN Official Store] [TRONSMART VN Official Store]-...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467005619703808%26signature%3D6db56c39acfbb67a05bc04eeaf550766fcda63b4c57d7d65e50de3028b8bf883%26voucherCode%3DTRON1000%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[kima shoes]-Giảm 6,000 VNĐ cho đơn tối thiểu 400,000 VNĐ",
-        "code": "KIMA234",
-        "desc": "[kima shoes] [kima shoes]-Giảm 6,000 VNĐ cho đơn tối thiểu 4...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467087919026176%26signature%3Dd8a17ad5ae3fd057ea4011fb15b415a34fabf10dede6868842b30bf585efa226%26voucherCode%3DKIMA234%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[Huggies Official Store]-Giảm 8%-tối đa 150,000 VNĐ cho đơn tối thiểu 99,000 VNĐ",
-        "code": "HUGG19A",
-        "desc": "[Huggies Official Store] [Huggies Official Store]-Giảm 8%-tố...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466445336055812%26signature%3D93985f7ebfbd1474b149d406cc0f1430172d86d1b25fb19500799c32b39b4cac%26voucherCode%3DHUGG19A%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[Dwin Official Store]-Giảm 10%-tối đa 0 VNĐ cho đơn tối thiểu 500,000 VNĐ",
-        "code": "DWINJHKK",
-        "desc": "[Dwin Official Store] [Dwin Official Store]-Giảm 10%-tối đa ...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466966703378432%26signature%3D302275ab321cecb746120ca928920ebc668896103ee4daecc36d978bbef38885%26voucherCode%3DDWINJHKK%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[Supersports Việt Nam]-Giảm 15%-tối đa 500,000 VNĐ cho đơn tối thiểu 500,000 VNĐ",
-        "code": "SUPESP897",
-        "desc": "[Supersports Việt Nam] [Supersports Việt Nam]-Giảm 15%-tối đ...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467014217895936%26signature%3Df8c29f144cfeeb8f2b288d1e9671e6a513572e1dbaa50da53d56d18afbdb1500%26voucherCode%3DSUPESP897%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[BEMINE Official]-Giảm 10%-tối đa 40,000 VNĐ cho đơn tối thiểu 299,000 VNĐ",
-        "code": "MWAM7744",
-        "desc": "[BEMINE Official] [BEMINE Official]-Giảm 10%-tối đa 40,000 V...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466562407993344%26signature%3Dfcab0bbf605cc5057aa965290c0af902d8c233ab62416c2f3bbbaf329fdbc2ca%26voucherCode%3DMWAM7744%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[Dược Phẩm Meracine]-Giảm 10,000 VNĐ cho đơn tối thiểu 359,000 VNĐ",
-        "code": "DUOC10KT8",
-        "desc": "[Dược Phẩm Meracine] [Dược Phẩm Meracine]-Giảm 10,000 VNĐ ch...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467067493945344%26signature%3D515c5704c7840c8ffcb5788cb42825583c4f54248d7ef85655eba33f4179da78%26voucherCode%3DDUOC10KT8%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[Công Ty Thảo Dược Hương Xuân]-Giảm 10,000 VNĐ cho đơn tối thiểu 80,000 VNĐ",
-        "code": "TRATMHBBK",
-        "desc": "[Công Ty Thảo Dược Hương Xuân] [Công Ty Thảo Dược Hương Xuân...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467012757884928%26signature%3D96510ecbda628c9237c66bf605cebc09c360c47213594b10b9a6aacd00b89004%26voucherCode%3DTRATMHBBK%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[VuaAuto]-Giảm 7%-tối đa 15,000 VNĐ cho đơn tối thiểu 0 VNĐ",
-        "code": "VIDEO-1464991606018048",
-        "desc": "[VuaAuto] [VuaAuto]-Giảm 7%-tối đa 15,000 VNĐ cho đơn tối th...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1464991606018048%26signature%3D07cda1517f1591ccd4714a758c67976832658f868e311b83719b155bc530b408%26voucherCode%3DVIDEO-1464991606018048%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[Huawei Flagship Store]-Giảm 100,000 VNĐ cho đơn tối thiểu 4,000,000 VNĐ",
-        "code": "HUAWFT534",
-        "desc": "[Huawei Flagship Store] [Huawei Flagship Store]-Giảm 100,000...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1449066908520448%26signature%3D182f132faeb7cebfeb2b8e4138f7a3a5c7568125be0906672b12b47da6fa2752%26voucherCode%3DHUAWFT534%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[David Jones VN Official Shop]-Giảm 200,000 VNĐ cho đơn tối thiểu 0 VNĐ",
-        "code": "T6MIGA195",
-        "desc": "[David Jones VN Official Shop] [David Jones VN Official Shop...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466352877211648%26signature%3De12fc2015e0a86cb32b8479b41032c8e364b75b129eaad3c50af658371d886fe%26voucherCode%3DT6MIGA195%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[MIDORI BAG COLLECTION]-Giảm 46,000 VNĐ cho đơn tối thiểu 90,000 VNĐ",
-        "code": "MIDOVCLLF",
-        "desc": "[MIDORI BAG COLLECTION] [MIDORI BAG COLLECTION]-Giảm 46,000 ...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466982147198976%26signature%3D627a22142347ccd19e27f54e0dc609b3f104e69c5e00104510c81d1ccabe3c5d%26voucherCode%3DMIDOVCLLF%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[Điện Tử HCM]-Giảm 350,000 VNĐ cho đơn tối thiểu 3,500,000 VNĐ",
-        "code": "DIENHCM",
-        "desc": "[Điện Tử HCM] [Điện Tử HCM]-Giảm 350,000 VNĐ cho đơn tối thi...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467189523288064%26signature%3Dc4928c680466be74185bda3bb513215b16c4b8f2b086e1f75145a2c4f03ab996%26voucherCode%3DDIENHCM%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[Trustlink Hà Nội]-Giảm 300,000 VNĐ cho đơn tối thiểu 2,000,000 VNĐ",
-        "code": "TRUSPK",
-        "desc": "[Trustlink Hà Nội] [Trustlink Hà Nội]-Giảm 300,000 VNĐ cho đ...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467200889458692%26signature%3Df6038f4e184a7d9cd6c9fddd563ea6d54f03950cdee355e05f0df2d06b909c72%26voucherCode%3DTRUSPK%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[ĐỖ LẠC]-Giảm 10%-tối đa 0 VNĐ cho đơn tối thiểu 139,000 VNĐ",
-        "code": "DOCH1018",
-        "desc": "[ĐỖ LẠC] [ĐỖ LẠC]-Giảm 10%-tối đa 0 VNĐ cho đơn tối thiểu 13...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467209110949888%26signature%3D8c21fed9c6ea5abdbe2c70fd0aba02c04caf2de8ac1e04153d392dfdafb1f95f%26voucherCode%3DDOCH1018%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[ĐỖ LẠC]-Giảm 7%-tối đa 0 VNĐ cho đơn tối thiểu 109,000 VNĐ",
-        "code": "DOCH1807",
-        "desc": "[ĐỖ LẠC] [ĐỖ LẠC]-Giảm 7%-tối đa 0 VNĐ cho đơn tối thiểu 109...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467209604173824%26signature%3Ddc16cd74a6a7b9fb9edbdbc4ed467ecc19f77d35d9a3bd22edcd7e6c8884b3d6%26voucherCode%3DDOCH1807%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[Pixie Official Store]-Giảm 50,000 VNĐ cho đơn tối thiểu 300,000 VNĐ",
-        "code": "PIXI50999",
-        "desc": "[Pixie Official Store] [Pixie Official Store]-Giảm 50,000 VN...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467281831399424%26signature%3Def350c54ac3bae4362eb6e154506a2ecfff9e21f09408a318b1ae68a345fc50f%26voucherCode%3DPIXI50999%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[Nông Sản Sạch FoodMap]-Giảm 8%-tối đa 20,000 VNĐ cho đơn tối thiểu 139,000 VNĐ",
-        "code": "FMAPSV",
-        "desc": "[Nông Sản Sạch FoodMap] [Nông Sản Sạch FoodMap]-Giảm 8%-tối ...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466552138633216%26signature%3Ddd11b515468c5502f46dc674e76c2b437820803c77b63f9b552be43a4fdec77e%26voucherCode%3DFMAPSV%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[Haco Cosmetics]-Giảm 15,000 VNĐ cho đơn tối thiểu 0 VNĐ",
-        "code": "HACODVULX",
-        "desc": "[Haco Cosmetics] [Haco Cosmetics]-Giảm 15,000 VNĐ cho đơn tố...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467239133777920%26signature%3D41166566647bbf7e9836650dc077f1955920c8f1abcde1fe42e1d3d529739e73%26voucherCode%3DHACODVULX%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[VŨ GIA TEA & FARM]-Giảm 8%-tối đa 20,000 VNĐ cho đơn tối thiểu 139,000 VNĐ",
-        "code": "VUGIASV",
-        "desc": "[VŨ GIA TEA & FARM] [VŨ GIA TEA & FARM]-Giảm 8%-tối đa 20,00...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466552139419648%26signature%3D30c275e5b48c55331a482cc4d8de34b8e90282bc94670e82fae6dac19f5474f7%26voucherCode%3DVUGIASV%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[iCare Pharma Việt Nam]-Giảm 20%-tối đa 10,000 VNĐ cho đơn tối thiểu 49,000 VNĐ",
-        "code": "ICARKM10",
-        "desc": "[iCare Pharma Việt Nam] [iCare Pharma Việt Nam]-Giảm 20%-tối...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467025945694208%26signature%3D7136a9769c9f46cd5228db0d57440ab2d9b3eb20aee288530d7fd3416a07f68b%26voucherCode%3DICARKM10%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[NHÀ MÁY DỆT MAY THÁI HÒA]-Giảm 10%-tối đa 30,000 VNĐ cho đơn tối thiểu 99,000 VNĐ",
-        "code": "MWAM7736",
-        "desc": "[NHÀ MÁY DỆT MAY THÁI HÒA] [NHÀ MÁY DỆT MAY THÁI HÒA]-Giảm 1...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466562357006336%26signature%3Da990dc7ec286f6e347b6352ccfd60e573085dbb053e1868ce99f4f8cb91fa7a2%26voucherCode%3DMWAM7736%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[LAMER Official Store]-Giảm 10%-tối đa 40,000 VNĐ cho đơn tối thiểu 299,000 VNĐ",
-        "code": "MWAM7741",
-        "desc": "[LAMER Official Store] [LAMER Official Store]-Giảm 10%-tối đ...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466562381254656%26signature%3Dcec1aa18fc100a964add78c86f656567081e32b63df03dff3ec670786e609de4%26voucherCode%3DMWAM7741%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[LAIKOU Official Store]-Giảm 10,000 VNĐ cho đơn tối thiểu 100,000 VNĐ",
-        "code": "LAIKMJ03",
-        "desc": "[LAIKOU Official Store] [LAIKOU Official Store]-Giảm 10,000 ...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467064793075712%26signature%3Dafaead7675aa172d6fb3a6e41e007ad407bf29b85b532a88be380e70cd742da8%26voucherCode%3DLAIKMJ03%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[Supin shop Găng Tay SG]-Giảm 4,990 VNĐ cho đơn tối thiểu 499,000 VNĐ",
-        "code": "MINA18757",
-        "desc": "[Supin shop Găng Tay SG] [Supin shop Găng Tay SG]-Giảm 4,990...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467024804188160%26signature%3D95a8112a63590370f9ad7504620cdf2efcfb78ea4ae629347246256d0c847846%26voucherCode%3DMINA18757%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[Supin shop Găng Tay SG]-Giảm 3,000 VNĐ cho đơn tối thiểu 299,000 VNĐ",
-        "code": "MINA18737",
-        "desc": "[Supin shop Găng Tay SG] [Supin shop Găng Tay SG]-Giảm 3,000...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467029351337984%26signature%3Dfb568daf0cf3637240dca5d814101a2af67f2cfed72347c87142cc1ad686c4a8%26voucherCode%3DMINA18737%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[Nhathuoc365]-Giảm 200,000 VNĐ cho đơn tối thiểu 0 VNĐ",
-        "code": "NHATQ1",
-        "desc": "[Nhathuoc365] [Nhathuoc365]-Giảm 200,000 VNĐ cho đơn tối thi...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1467151513063424%26signature%3Defb6ad5e79548a6f4ce86c3d83d564aeb0e366998745531c90dd19a290c3b60c%26voucherCode%3DNHATQ1%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[WMF Official Store]-Giảm 6%-tối đa 0 VNĐ cho đơn tối thiểu 800,000 VNĐ",
-        "code": "WMFO17G6P",
-        "desc": "[WMF Official Store] [WMF Official Store]-Giảm 6%-tối đa 0 V...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466296881418240%26signature%3D79e7162cbb014731488879af68ffa5fe875b6c24b3f6e4f2abdbd9f1de0e53bb%26voucherCode%3DWMFO17G6P%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[Dược Phẩm Dân Khang VN]-Giảm 210,000 VNĐ cho đơn tối thiểu 1,190,000 VNĐ",
-        "code": "DANK210AS",
-        "desc": "[Dược Phẩm Dân Khang VN] [Dược Phẩm Dân Khang VN]-Giảm 210,0...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466517988478976%26signature%3D7790bad51f9c34d3d43819ac982380947eb768a151c7d33d179de74c0910ae20%26voucherCode%3DDANK210AS%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[Dược Phẩm Dân Khang VN]-Giảm 130,000 VNĐ cho đơn tối thiểu 1,090,000 VNĐ",
-        "code": "DANK130TM",
-        "desc": "[Dược Phẩm Dân Khang VN] [Dược Phẩm Dân Khang VN]-Giảm 130,0...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466501942906880%26signature%3D30504962b8bbfd73c1b96a35c7c063312e786d0fca4c7fb79de4fec3f5da7a43%26voucherCode%3DDANK130TM%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[Dược Phẩm Dân Khang VN]-Giảm 80,000 VNĐ cho đơn tối thiểu 800,000 VNĐ",
-        "code": "DANK80HTC",
-        "desc": "[Dược Phẩm Dân Khang VN] [Dược Phẩm Dân Khang VN]-Giảm 80,00...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466495506878464%26signature%3De4e518fab967eced88afe6acfb98b2637da5b4d5fa68e0f5743fa094150b7625%26voucherCode%3DDANK80HTC%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[Dược Phẩm Dân Khang VN]-Giảm 21,000 VNĐ cho đơn tối thiểu 163,000 VNĐ",
-        "code": "DANK20SDC",
-        "desc": "[Dược Phẩm Dân Khang VN] [Dược Phẩm Dân Khang VN]-Giảm 21,00...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466521387044864%26signature%3Dbfbf99a5c02041371b9f6ee56bd05daa2511234764d8bd1801d6e07432c2f20d%26voucherCode%3DDANK20SDC%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[GENVIET JEANS]-Giảm 3%-tối đa 15,000 VNĐ cho đơn tối thiểu 250,000 VNĐ",
-        "code": "GENV94NN3",
-        "desc": "[GENVIET JEANS] [GENVIET JEANS]-Giảm 3%-tối đa 15,000 VNĐ ch...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466483217960960%26signature%3D204d13ae0ee5ba9c9c76f460cc161b1c813cff06a2a7149a4866087a340dea5d%26voucherCode%3DGENV94NN3%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[zsjewellery.vn]-Giảm 17,000 VNĐ cho đơn tối thiểu 250,000 VNĐ",
-        "code": "ZSJE75249",
-        "desc": "[zsjewellery.vn] [zsjewellery.vn]-Giảm 17,000 VNĐ cho đơn tố...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1451082790375424%26signature%3Df047a04af64246fa091bdf0dd03a5a80a396efb7d7e8203725afd254a86d8316%26voucherCode%3DZSJE75249%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[zsjewellery.vn]-Giảm 4,000 VNĐ cho đơn tối thiểu 100,000 VNĐ",
-        "code": "ZSJE89343",
-        "desc": "[zsjewellery.vn] [zsjewellery.vn]-Giảm 4,000 VNĐ cho đơn tối...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1451081314242560%26signature%3Dc1b857f8808a426a89da94bc5256bfef9bbbc2d48f900950bb7aba1b16bad8ea%26voucherCode%3DZSJE89343%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[zsjewellery.vn]-Giảm 2,000 VNĐ cho đơn tối thiểu 50,000 VNĐ",
-        "code": "ZSJE04501",
-        "desc": "[zsjewellery.vn] [zsjewellery.vn]-Giảm 2,000 VNĐ cho đơn tối...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1451081859239936%26signature%3D858d149abcd398f59827a7559bc0a02b86ac197edaf8b59e6f5a25b8fcce5d16%26voucherCode%3DZSJE04501%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[Áo Thun Nhà Ken.2018]-Giảm 5,000 VNĐ cho đơn tối thiểu 250,000 VNĐ",
-        "code": "KENS1707",
-        "desc": "[Áo Thun Nhà Ken.2018] [Áo Thun Nhà Ken.2018]-Giảm 5,000 VNĐ...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466312955564032%26signature%3D3f4202496dd826cda9778ec44a4f80183d61e7fa59e454095e3b44d2e3baecc9%26voucherCode%3DKENS1707%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[Điện Thoại Giá Kho Store]-Giảm 450,000 VNĐ cho đơn tối thiểu 6,399,000 VNĐ",
-        "code": "DIENJA175",
-        "desc": "[Điện Thoại Giá Kho Store] [Điện Thoại Giá Kho Store]-Giảm 4...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466291011358720%26signature%3Db61547d29b64d5954c0b404dbc530376b2c92fe8721b1bbac3a0cc2d3f1c8e53%26voucherCode%3DDIENJA175%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[Điện Thoại Giá Kho Store]-Giảm 450,000 VNĐ cho đơn tối thiểu 5,200,000 VNĐ",
-        "code": "DIENJA174",
-        "desc": "[Điện Thoại Giá Kho Store] [Điện Thoại Giá Kho Store]-Giảm 4...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466290623909888%26signature%3D94965c7cbbf016bf3472159969c7c60823a329b9e6af016c697604a1e41a78f0%26voucherCode%3DDIENJA174%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[Quần Áo Trẻ Em - Mint’s Closet]-Giảm 30,000 VNĐ cho đơn tối thiểu 99,000 VNĐ",
-        "code": "SR76654",
-        "desc": "[Quần Áo Trẻ Em - Mint’s Closet] [Quần Áo Trẻ Em - Mint’s Cl...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1459227121979392%26signature%3Debade25e357ac3ef416630f2f60eed6a9846bd417a830a1fc2e37fcbe827b00f%26voucherCode%3DSR76654%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[M2store]-Giảm 7%-tối đa 50,000 VNĐ cho đơn tối thiểu 0 VNĐ",
-        "code": "M2STSLKEO",
-        "desc": "[M2store] [M2store]-Giảm 7%-tối đa 50,000 VNĐ cho đơn tối th...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466278191861760%26signature%3D44ef0837e85b7ce901cce9f3dee9e77314d6e69475431919ea50421bbd300f68%26voucherCode%3DM2STSLKEO%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[M2store]-Giảm 12%-tối đa 50,000 VNĐ cho đơn tối thiểu 0 VNĐ",
-        "code": "M2STSALE",
-        "desc": "[M2store] [M2store]-Giảm 12%-tối đa 50,000 VNĐ cho đơn tối t...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466277614751744%26signature%3D35f11bd0d527e637ed290de7644fac382594d8cc9c9bee656efff4b2294fe15d%26voucherCode%3DM2STSALE%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[Nếp Shop hàng nhật nội địa]-Giảm 11%-tối đa 200,000 VNĐ cho đơn tối thiểu 300,000 VNĐ",
-        "code": "NEPSEAWW",
-        "desc": "[Nếp Shop hàng nhật nội địa] [Nếp Shop hàng nhật nội địa]-Gi...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466372161835008%26signature%3D21451ea2c70320ed3b42c1cbedf7adbe79edcc14a44cebf56af8bab154ce32e4%26voucherCode%3DNEPSEAWW%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[maybi_fashion]-Giảm 70,000 VNĐ cho đơn tối thiểu 0 VNĐ",
-        "code": "MAYBG70K",
-        "desc": "[maybi_fashion] [maybi_fashion]-Giảm 70,000 VNĐ cho đơn tối ...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466477431132160%26signature%3Dc19d75143c4f07a5c6e2d0c5f084f3f729c7655931e68ab3d1bf9aecd0a57a62%26voucherCode%3DMAYBG70K%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[Mutosi Online Store]-Giảm 1,000,000 VNĐ cho đơn tối thiểu 3,000,000 VNĐ",
-        "code": "MUTOXAKHO",
-        "desc": "[Mutosi Online Store] [Mutosi Online Store]-Giảm 1,000,000 V...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466297193500672%26signature%3Da615637d62fdb5bfddf3acc4d82c9c1424de0e33411683e81f47a6441c924903%26voucherCode%3DMUTOXAKHO%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[PhuongThaoBook]-Giảm 6,000 VNĐ cho đơn tối thiểu 149,000 VNĐ",
-        "code": "PHUOTI7I7",
-        "desc": "[PhuongThaoBook] [PhuongThaoBook]-Giảm 6,000 VNĐ cho đơn tối...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466264713072640%26signature%3D7336a59fba0f2264cbd7aaf2170d4e286c7e71c129b328f7031c3909ea4c86e9%26voucherCode%3DPHUOTI7I7%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[RelaGala.VN]-Giảm 1,000 VNĐ cho đơn tối thiểu 50,000 VNĐ",
-        "code": "RELAOOLIF",
-        "desc": "[RelaGala.VN] [RelaGala.VN]-Giảm 1,000 VNĐ cho đơn tối thiểu...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466804367298560%26signature%3D7b6ec786d6d32f3b4590c87dabff186a6cfd3c46416380df2408da0ecd5d74d4%26voucherCode%3DRELAOOLIF%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[PTY HOUSE]-Giảm 200,000 VNĐ cho đơn tối thiểu 0 VNĐ",
-        "code": "PTYH009PR",
-        "desc": "[PTY HOUSE] [PTY HOUSE]-Giảm 200,000 VNĐ cho đơn tối thiểu 0...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466315656695808%26signature%3D9ad96519034a7fc6ea30326ac90984b322ad71c9d7693bc745306f6b53ee2443%26voucherCode%3DPTYH009PR%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[Beyono Vietnam Official]-Giảm 15,000 VNĐ cho đơn tối thiểu 299,000 VNĐ",
-        "code": "BEYONOK29",
-        "desc": "[Beyono Vietnam Official] [Beyono Vietnam Official]-Giảm 15,...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466507588308992%26signature%3D76d4b78ebf4cce682f0f16aaa3ad6d95672a44551f83eadbace975adcef504ec%26voucherCode%3DBEYONOK29%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[guanyi.vn]-Giảm 8,000 VNĐ cho đơn tối thiểu 0 VNĐ",
-        "code": "GUAN78925",
-        "desc": "[guanyi.vn] [guanyi.vn]-Giảm 8,000 VNĐ cho đơn tối thiểu 0 V...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466464813355008%26signature%3Df4e43e7c89c807ee2ff556f17c039dd4717ef41df616cb244d8a5c767b193b70%26voucherCode%3DGUAN78925%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[VANESSA _Eyewear]-Giảm 5,000 VNĐ cho đơn tối thiểu 20,000 VNĐ",
-        "code": "VANE9BE3M",
-        "desc": "[VANESSA _Eyewear] [VANESSA _Eyewear]-Giảm 5,000 VNĐ cho đơn...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466846217932800%26signature%3Ded36dc4f61a96fa83cfffe95cc87ea0d44ad9e809a488bd8d696c07c7ee788a8%26voucherCode%3DVANE9BE3M%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[Amia Cosmetic]-Giảm 35,000 VNĐ cho đơn tối thiểu 1,800,000 VNĐ",
-        "code": "ANHAMGG13",
-        "desc": "[Amia Cosmetic] [Amia Cosmetic]-Giảm 35,000 VNĐ cho đơn tối ...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466493636349952%26signature%3D5a5213182fa3efd1355d2006d91ea129e79bb1ab1165a1158583596573cf0e87%26voucherCode%3DANHAMGG13%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[Amia Cosmetic]-Giảm 20,000 VNĐ cho đơn tối thiểu 1,200,000 VNĐ",
-        "code": "ANHAMGG12",
-        "desc": "[Amia Cosmetic] [Amia Cosmetic]-Giảm 20,000 VNĐ cho đơn tối ...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466493200142336%26signature%3D9c7c2aaa772844dfd6ed49f80112067b54df06ec0b0bd060730649f09ef7870d%26voucherCode%3DANHAMGG12%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[THEFACESHOP VIỆT NAM]-Giảm 7%-tối đa 40,000 VNĐ cho đơn tối thiểu 477,000 VNĐ",
-        "code": "THEFA477",
-        "desc": "[THEFACESHOP VIỆT NAM] [THEFACESHOP VIỆT NAM]-Giảm 7%-tối đa...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466686341287936%26signature%3D9d6b85f638e6039ebd3d2d14b657b1558d15620e93203238a40bf1b5dbc9d59e%26voucherCode%3DTHEFA477%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[FUJIHOME VN]-Giảm 10%-tối đa 0 VNĐ cho đơn tối thiểu 0 VNĐ",
-        "code": "FUJI10NEW",
-        "desc": "[FUJIHOME VN] [FUJIHOME VN]-Giảm 10%-tối đa 0 VNĐ cho đơn tố...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466336728748032%26signature%3Dd27634ef63bddda1284c0652a9e3aa7f787bc68459eaa19fe487478c009f4f9e%26voucherCode%3DFUJI10NEW%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[Takiu's Store]-Giảm 4%-tối đa 7,000 VNĐ cho đơn tối thiểu 105,000 VNĐ",
-        "code": "TAKIU105K",
-        "desc": "[Takiu's Store] [Takiu's Store]-Giảm 4%-tối đa 7,000 VNĐ cho...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1466807504375808%26signature%3D6bf4c4bfd68a55ae1c948305e32d11415a23a4a400ede57e84f78f98707621ba%26voucherCode%3DTAKIU105K%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[Hairacc2030.vn]-Giảm 9,000 VNĐ cho đơn tối thiểu 150,000 VNĐ",
-        "code": "HAIRLHY04",
-        "desc": "[Hairacc2030.vn] [Hairacc2030.vn]-Giảm 9,000 VNĐ cho đơn tối...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1463679738220544%26signature%3D7f56b87fddf0e73c068f28a225060df53c9d7dc999f997a5d9efb9b361878a5d%26voucherCode%3DHAIRLHY04%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[Hairacc2030.vn]-Giảm 5,000 VNĐ cho đơn tối thiểu 100,000 VNĐ",
-        "code": "HAIRLHY03",
-        "desc": "[Hairacc2030.vn] [Hairacc2030.vn]-Giảm 5,000 VNĐ cho đơn tối...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1463679434788864%26signature%3D4db059063277a5bf9a1549b16f237b1201c322d911d85088275880a374726f18%26voucherCode%3DHAIRLHY03%26ref%3Dsansandeals"
-    },
-    {
-        "title": "[Hairacc2030.vn]-Giảm 2,500 VNĐ cho đơn tối thiểu 60,000 VNĐ",
-        "code": "HAIRLHY02",
-        "desc": "[Hairacc2030.vn] [Hairacc2030.vn]-Giảm 2,500 VNĐ cho đơn tối...",
-        "link": "https://go.isclix.com/deep_link/6974414262723062312?url=https%3A%2F%2Fshopee.vn%2Fsearch%3FpromotionId%3D1463678974988288%26signature%3D4d2fab466f6505b6e7cd7b91aa82142c702ded5c8e176d7e70802800835e2d64%26voucherCode%3DHAIRLHY02%26ref%3Dsansandeals"
     }
 ]
